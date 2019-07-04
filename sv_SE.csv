@@ -180,6 +180,7 @@ Subtotal:,Delsumma:
 "Upload File","Ladda upp fil"
 "Your csv file must include ""sku"" and ""qty"" columns.","Din CSV-fil måste innehålla kolumnerna ""sku"" och ""antal""."
 Reset,Återställ
+"SKU: ","Art.nr: "
 "Only <span id=""%1_max_allowed"">%2</span> in stock","Endast <span id=""%1_max_allowed"">%2</span> i lager"
 Item,Artikel
 "See price before order confirmation.","Se pris innan orderbekräftelse."
@@ -191,6 +192,7 @@ Edit,Redigera
 "Remove item","Ta bort artikel"
 "Products Requiring Attention","Produkter som kräver uppmärksamhet"
 "Add to Cart","Lägg till i kundvagn"
+Sku,Artikelnummer
 File,Fil
 "File extensions allowed: .csv","Tillåtna filändelser: .csv"
 "Add Row","Lägg till rad"
@@ -2014,18 +2016,22 @@ Path,Sökväg
 "Customer is already registered","Kunden är redan registrerad"
 "Your session has expired","Din session har gått ut"
 "A letter with further instructions will be sent to your email.","Ett brev med vidare instruktioner har skickats till dig via e-post."
+"We can't add this item to your shopping cart right now.","Vi kan inte lägga till den här artikeln i din kundvagn."
 "We can't find the quote item.","Vi kan inte hitta offertobjektet."
 "We cannot configure the product.","Vi kan inte anpassa produkten."
 "You used coupon code ""%1"".","Du använde rabattkoden ""%1""."
 "You canceled the coupon code.","Du tog bort rabattkoden."
 "We cannot apply the coupon code.","Vi kan inte använda rabattkoden."
+"We can't remove the item.","Vi kan inte ta bort artikeln."
 "%1 was updated in your shopping cart.","%1 lades till i din kundvagn."
+"We can't update the shopping cart.","Vi kan inte uppdatera varukorgen."
 "One-page checkout is turned off.","Onepage kassan är avstängt."
 "Guest checkout is disabled.","Köp för Gäster är inaktiverat."
 Checkout,"Till Kassan"
 "Something went wrong while processing your order. Please try again later.","Något gick fel när vi behandlade din order. Försök igen senare."
 "Payment Method",Betalningsmetod
 "Payment Page",Betalningssida
+"We can't find the product.","Vi kan inte hitta produkten."
 "We found an invalid request for adding product to quote.","Vi upptäckte en ogiltig begäran för att lägga till produkten i offerten."
 "The product does not exist.","Produkten finns inte."
 "We don't have some of the products you want.","Vi har tyvärr inte några av produkterna du beställt."
@@ -2143,6 +2149,7 @@ Payment,Betalning
 "We received your order!","Vi mottog din order!"
 "Thank you for your purchase!","Tack för ditt köp!"
 "Unable to save address. Please, check input data.","Det gick inte att spara adress. Vänligen kontrollera indata."
+"Wrong minimum amount.","Felaktigt minsta belopp."
 "Forgot Password","Glömt lösenord"
 item,artikel
 items,artiklar
@@ -2159,6 +2166,7 @@ items,artiklar
 "Items in Cart","Artiklar i kundvagnen"
 of,av
 "Something went wrong while saving the page. Please refresh the page and try again.","Något gick fel när sidan sparades. Vänligen uppdatera sidan och försök igen."
+"Please select at least one product to add to cart","Välj minst en produkt att lägga till i varukorgen"
 "Terms and Conditions","Regler och Villkor"
 "Add New Condition","Lägga till nytt villkor"
 "Save Condition","Spara Regelvillkor"
