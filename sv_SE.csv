@@ -4043,6 +4043,7 @@ TRUE,Sann
 "If %1 of these conditions are %2:","Om %1 av dessa villkor är %2:"
 "Credit Memos",Kreditnotor
 Invoices,Fakturor
+"We can't get the order instance right now.","Vi kan hämta orderinstansen just nu."
 "Create New Order","Skapa ny beställning"
 "Save Order Address","Spara beställningsadress"
 "Edit Order %1 %2 Address","Redigera beställning %1 %2 adress"
@@ -4081,6 +4082,7 @@ Invoices,Fakturor
 "Refund Shipping (Incl. Tax)","Återbetala frakt (inkl moms)"
 "Refund Shipping (Excl. Tax)","Återbetala frakt (exkl moms)"
 "Refund Shipping","Återbetala frakt"
+"Update Qty's","Uppdatera antal"
 Refund,Återbetala
 "Refund Offline","Återbetalning Offline"
 "Paid Amount","Betalat belopp"
@@ -4093,6 +4095,7 @@ Refund,Återbetala
 "Send Email","Skicka E-post"
 "Are you sure you want to send a credit memo email to customer?","Är du säker du vill mejla kreditnotan till kunden?"
 "The credit memo email was sent.","E-brevet med kreditnotan har skickats."
+"The credit memo email wasn't sent.","E-postmeddelandet med kreditnotan skickades inte."
 "Credit Memo #%1 | %3 | %2 (%4)","Kreditnotan #%1 | %3 | %2 (%4)"
 "Total Refund","Återbetala hela beloppet"
 "New Invoice and Shipment for Order #%1","Ny faktura och leverans för beställning #%1"
@@ -4103,6 +4106,7 @@ Refund,Återbetala
 "Credit Memo",Kreditmemo
 Capture,Fakturera
 "The invoice email was sent.","Ett mejl med fakturan har skickats."
+"The invoice email wasn't sent.","E-postmeddelandet med faktura skickades inte."
 "Invoice #%1 | %2 | %4 (%3)","Faktura #%1 | %2 | %4 (%3)"
 "Invalid parent block for this block","Ogiltig överordnat block för detta block"
 "Order Statuses",Beställningsstatus
@@ -4155,6 +4159,8 @@ Shipments,Sändelser
 "Order Shipments",Beställningsleveranser
 Transactions,Transaktioner
 "Order View",Beställningsvy
+"Show Actual Values","Visa faktiska värden"
+"New Order RSS","RSS för nya ordrar"
 "Discount (%1)","Rabatt (%1)"
 "Transaction # %1 | %2","Transaktion # %1 | %2"
 Value,Värde
@@ -4173,6 +4179,7 @@ Unassign,"Ta bort tilldelning"
 "You updated the order address.","Du uppdaterade beställningsadressen."
 "You canceled the order.","Du avbröt beställningen."
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","Rabattkod ”%1” tillämpades inte. Använd-inte-rabatten är valt för artiklarna"
+"""%1"" coupon code is not valid.","Kupongkoden ""%1"" är inte giltig."
 "The coupon code has been accepted.","Rabattkoden har applicerats."
 "New Order","Ny beställning"
 "Cannot add new comment.","Kan inte lägga till ny kommentar."
@@ -4231,11 +4238,15 @@ Unassign,"Ta bort tilldelning"
 "Shipping Address: ","Leveransadress: "
 "Billing Address: ","Faktureringsadress: "
 "Please specify order items.","Ange beställningens artiklar."
+"This payment method is not available.","Denna betalningsmetod är inte tillgänglig."
+"Validation is failed.","Validering misslyckades."
+"We cannot cancel this order.","Vi kan inte annullera denna beställning."
 "Please enter the company.","Ange företagsnamnet."
 "Please enter the fax number.","Ange faxnummer."
 "Unknown State","Okänt tillstånd"
 "Could not save the creditmemo comment.","Kunde inte spara kreditnotans kommentar."
 "The creditmemo contains product item that is not part of the original order.","Kreditnotan innehåller artiklar som inte var med i den ursprungliga beställningen."
+"You can't create a creditmemo without products.","Du kan inte skapa en kreditnota utan produkter."
 "We cannot register an existing invoice","Vi kan inte registrera en befintlig faktura"
 "We can't create creditmemo for the invoice.","Vi kan inte skapa kreditnota för fakturan."
 "Order Id is required for invoice document","Beställnings-id krävs för fakturadokumentet"
