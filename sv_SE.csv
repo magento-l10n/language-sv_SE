@@ -1201,6 +1201,7 @@ Day,Dag
 "<label class=""label""><span>to</span></label>","<label class=""label><span>Från</span></label>"
 [GLOBAL],[GLOBALT]
 "[STORE VIEW]",[BUTIKSVY]
+"WYSIWYG Editor",Wysiwyg-redigerare
 "Add Product","Lägg till produkt"
 "Product Attributes",Produktattribut
 "Add New Attribute","Lägg till nytt attribut"
@@ -1212,6 +1213,7 @@ Day,Dag
 "New Product Attribute","Nytt produktattribut"
 "Advanced Attribute Properties","Avancerade attribut egenskaper"
 "Attribute Code",Attributkod
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Detta används internt. Se till att du inte använder mellanslag eller mer än %1 symboler."
 "Default Value",Standardvärde
 "Unique Value","Unikt värde"
 "Unique Value (not shared with other products)","Unikt värde (Får inte delas med andra produkter)"
@@ -1239,6 +1241,9 @@ Scope,Omfattning
 Gallery,Galleri
 "System Properties","System egenskaper"
 "Data Type for Saving in Database","Datatyp för sparandet i databasen"
+Datetime,Datumtid
+Decimal,Decimaltal
+Integer,Heltal
 "Globally Editable","Globalt redigerbar"
 "Attribute Information","Attributsinformation "
 Properties,Egenskaper
@@ -1292,6 +1297,8 @@ Import,Importera
 "Add Price","Lägg till pris"
 "Default Values",Standardvärden
 "Related Products","Relaterade produkter"
+Up-sells,Merförsäljning
+Cross-sells,Korsförsäljning
 "Size for %1","Storlek för %1"
 "Watermark File for %1","Vattenstämpels fil för %1"
 "Position of Watermark for %1","Vattenstämpelns position för %1"
@@ -1309,6 +1316,8 @@ Import,Importera
 "Go to Home Page","Gå till startsidan"
 "Subscribe to RSS Feed","Prenumerera på RSS flöde"
 "Products Comparison List","Produkter jämförelselista"
+AM,FM
+PM,EM
 "New Products from %1","Nya produkter från %1"
 "New Products","Nya produkter"
 "%1 - Special Products","%1 - Reaprodukter"
@@ -1335,12 +1344,15 @@ Categories,Kategorier
 "Unable to add attribute","Det gick inte att lägga till attribut"
 "Please, specify attributes","Ange attribut"
 "Manage Product Attributes","Hantera produktattribut"
+"We can't delete the attribute.","Vi kan inte ta bort attributet."
 "You deleted the product attribute.","Du tog bort produktattributet."
 "This attribute no longer exists.","Detta attribut finns inte längre."
 "This attribute cannot be edited.","Detta attribut kan inte redigeras."
 "Edit Product Attribute","Redigera produktattribut"
+"An attribute set named '%1' already exists.","Ett attribut som heter '%1' finns redan."
 "Something went wrong while saving the attribute.","Något gick fel när attributet sparades."
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attributkoden ""%1"" är ogiltig. Använd endast bokstäver (a-z), siffror (0-9) eller understreck (_) i fältet, första tecknet skall vara en bokstav."
+"We can't update the attribute.","Vi kan inte uppdatera attributet."
 "You saved the product attribute.","Du sparade produktens attribut."
 "An attribute with this code already exists.","Ett attribut med denna kod existerar redan."
 "An attribute with the same code (%1) already exists.","Ett attribut med samma kod (%1) existerar redan."
@@ -1380,6 +1392,7 @@ List,Listvy
 "Product is not loaded","Produkten är inte laddad."
 "Make sure the To Date is later than or the same as the From Date.","Försäkra att Till datumet är senare eller detsamma som Från datumet."
 "Something went wrong while getting the image url.","Något gick fel när bild urlen hämtades."
+"Can't delete root category.","Kan inte ta bort rotkategorin."
 "The value of attribute ""%1"" must be unique.","Värdet av attribut ""%1"" måste vara unikt."
 "No layout updates","Inga layout uppdateringar"
 "Products only","Endast produkter"
@@ -1405,6 +1418,7 @@ Manual,Manuellt
 "-- Please select --","--Vänligen välj--"
 "Product Thumbnail Itself","Produktens egen Thumbnail"
 "Parent Product Thumbnail","Föräldrar produktens thumbnail"
+"12h AM/PM","12 timmar FM/EM"
 24h,"24 timmar"
 Stretch,Utvidga
 Tile,"Över hela"
@@ -1466,6 +1480,7 @@ Category,Kategori
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","Filen '%1' du laddat upp är större än den %2 megabyte tillåts av vår server."
 "The file '%1' is empty. Please choose another one","Filen '%1' är tomt. Vänligen välj en annan"
 "The file '%1' is invalid. Please choose another one","Filen '%1' är ogiltigt. Vänligen välj en annan"
+"File '%1' is not an image.","Filen '%1' är inte en bild."
 "Validation failed. Required options were not filled or the file was not uploaded.","Validering misslyckades. Alla alternativ fylldes inte i eller misslyckades filöverföringen."
 "The file you uploaded is larger than %1 Megabytes allowed by server","Filen du laddat upp är större än %1 megabyte som tillåts av servern"
 "Option required.","Alternativ krävs."
@@ -1491,6 +1506,8 @@ Category,Kategori
 "Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ogiltigt attribut Webbplats-ID = % websiteId. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty."
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Vi hittade en dubblett webbplats, tier pris, kundgrupp och kvantitet: kundgrupp = %customerGroup, webbplats-ID = % websiteId, kvantitet = %qty. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty."
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ingen sådan enhet med Gundgrupp = %customerGroup. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty."
+"This product doesn't have tier price","Denna produkt har inte nivåpris"
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Produkten har inte grupppris med sådan data: customerGroupId = '%1', hemsida = %2, qty = %3"
 "Invalid data provided for tier_price","Ogiltiga data för tier_price"
 "Could not save group price","Kunde inte spara grupp-pris"
 "Please provide valid data","Ange giltiga data"
@@ -1819,6 +1836,9 @@ Overview,Översikt
 "There was a category move error. %1","Det uppstod ett fel vid flytt av kategori. %1"
 "You moved the category","Du flyttade kategorin"
 "An attribute group named ""/name/"" already exists"".","En attributgrupp som heter ""/name/"" finns redan""."
+"Watermark Default Size","Vattenstämpelns standardstorlek"
+"Watermark Opacity, Percent","Vattenstämpel Opacitet, Procent"
+Watermark,Vattenstämpel
 none,inga
 "Tier Price","Grupp pris"
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","Om din Magento webbplats har flera vyer kan du ange konfigurationsomfång för en specifik vy."
@@ -1831,6 +1851,14 @@ to,till
 remaining,återstående
 "too many","för många"
 "This value does not follow the specified format (for example, 200X300).","Detta värde följer inte det angivna formatet (till exempel 200 X 300)."
+"The ProductSku is empty. Set the ProductSku and try again.","ProductSku är tom. Ställ in ProductSku och försök igen."
+"The file is empty. Select another file and try again.","Filen är tom. Välj en annan fil och försök igen."
+"The text is too long. Shorten the text and try again.","Texten är för lång. Förkorta texten och försök igen."
+"Tier price is unavailable for this product.","Nivåpriset är inte tillgängligt för denna produkt."
+"Product Name or SKU","Produktnamn eller artikelnummer"
+"Default Layouts","Förvalda layouter"
+"Default Product Layout","Förvald produktlayout"
+"Default Category Layout","Förvald kategorilayout"
 "Edit Event","Redigera händelse"
 "Add Event","Lägg till händelse"
 Events,Händelser
