@@ -1726,7 +1726,6 @@ End,Slut
 "No Backorders","Inga restorder"
 "Allow Qty Below 0","Tillåt antal under 0"
 "Allow Qty Below 0 and Notify Customer","Tillåt antal under 0 och informera kunden"
-"Not all of your products are available in the requested quantity.","Någon av dina produkter är inte tillgänglig i önskat antal."
 "Stock Status",Lagerstatus
 "Only %1 left","Endast %1 kvar"
 "Decrease Stock When Order is Placed","Minska Produkter i Lager Efter Beställning"
@@ -1815,7 +1814,6 @@ Path,Sökväg
 "Catalog Products List","Kataloglistan produkter"
 "List of Products",Produktlista
 "Products Grid Template","Rutnätsmall för produkter"
-"Invalid method: %1","Ogiltig metod: %1"
 "My Cart (1 item)","Min kundvagn (1 artikel)"
 "My Cart (%1 items)","Min kundvagn (%1 artiklar)"
 "My Cart","Min kundvagn"
@@ -1859,6 +1857,7 @@ Checkout,"Till Kassan"
 "Sorry, guest checkout is not available.","Tyvärr kan inte gäster handla."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du måste bekräfta ditt konto. Kontrollera din e-post för att hitta din bekräftelselänk, eller <a href=""%1"">klicka här</a> för att få en ny länk."
 "Load customer quote error","Inläsningsfel för kundoffert"
+"Invalid method: %1","Ogiltig metod: %1"
 Error!,Fel!
 "DB exception","DB undantag"
 "Print receipt","Skriv ut kvitto"
@@ -2211,9 +2210,9 @@ Select,Välj
 "Choose a different Product","Välj en annan produkt"
 "Buy %1 for %2 each and","Köp %1 för %2 varje och"
 save,spara
-"New Product Review","Ny produktrecension"
 "Disable Product","Avaktivera produkt"
 "Enable Product","Aktivera produkt"
+"New Product Review","Ny produktrecension"
 "Please choose image(s).","Välj bild(er)."
 "Generate Products","Skapa produkter"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Tack för att du kontaktar oss med dina kommentarer och frågor. Vi kommer svara dig inom kort."
@@ -3987,7 +3986,6 @@ Complete,Slutförd
 "Payment Review",Betalningsgranskning
 "Email has not been sent","E-post har inte skickats"
 "Authorized amount of %1","Godkänt belopp %1"
-" Transaction ID: ""%1"""," Transaktions-ID: ""%1"""
 "Group was removed","Gruppen togs bort"
 "Changing address information will not recalculate shipping, tax or other order amount.","När du ändrar adressuppgifter kommer inte beräkna om frakt-, skatte- eller andra Orderbelopp."
 "No Payment Methods","Inga betalningsmetoder tillgängliga"
@@ -4348,7 +4346,6 @@ Track:,Spåra:
 "See our Shipping Policy","Se vår fraktpolicy"
 "Shipping Settings Section","Sektion för fraktinställning"
 "Shipping Policy Parameters Section","Sektion för fraktpolicy-parametrar"
-"Shipping Methods Section","Sektion för fraktmetoder"
 "Shipping Settings",Fraktinställningar
 Origin,Ursprung
 "Shipping Policy Parameters","Sektion för fraktpolicy-parametrar"
@@ -4414,11 +4411,11 @@ Filename,Filnamn
 "Store with the same code","Butik med samma kod"
 "Website with the same code","Webbplats med samma kod"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
-"Name is required","Namn är obligatoriskt"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
 "Store is inactive","Butiken är inaktiv"
 "Invalid store parameter.","Ogiltig butiksparameter."
 "Default store is inactive","Standardbutiken är inaktiv"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
+"Name is required","Namn är obligatoriskt"
 "no such entity exception","ingen sådan entitet"
 "Your Language:","Ditt språk:"
 "Your Language","Ditt språk"
@@ -4589,6 +4586,7 @@ Themes,Teman
 "Insert File","Infoga fil"
 welcome,välkommen
 "Design Configuration",Designkonfiguration
+"We cannot find a theme with id ""%1"".","Vi kan inte hitta ett tema med id ""%1""."
 "You deleted the theme.","Du tog bort temat."
 "We cannot delete the theme.","Vi kan inte ta bort temat."
 "File not found: ""%1"".","Filen hittades inte: ""%1""."
@@ -4596,7 +4594,6 @@ welcome,välkommen
 "We cannot find the theme.","Vi kan inte hitta temat."
 "This theme is not editable.","Detta tema är inte redigerbart."
 "You saved the theme.","Du sparat temat."
-"We cannot find a theme with id ""%1"".","Vi kan inte hitta ett tema med id ""%1""."
 "Invalid type","Ogiltig typ"
 "%1 does not contain field '%2'","%1 innehåller inte fältet '%2'"
 "Invalid regular expression: ""%1"".","Ogiltigt reguljärt uttryck: ""%1""."
