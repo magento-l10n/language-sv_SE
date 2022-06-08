@@ -2350,6 +2350,7 @@ Unlock,"Lås upp"
 "Something went wrong while validating the VAT ID.","Något gick fel vid valideringen av momsregistreringsnumret."
 "Validate VAT Number","Validera momsregistreringsnummer"
 "Date of Birth",Födelsedag
+Today,Idag
 "Bad request.","Felaktig förfrågan."
 "This confirmation key is invalid or has expired.","Denna bekräftelsenyckel är ogiltigt eller har löpt ut."
 "There was an error confirming the account","Det uppstod ett fel när kontot skulle bekräftas"
@@ -2393,6 +2394,7 @@ Unlock,"Lås upp"
 "This customer already exists in this store.","Denna kund finns redan i denna butik."
 """%1"" is a required value.","""%1"" är ett obligatoriskt värde."
 "Per Website","Per webbplats"
+Admin,Administratör
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Ingen entitet med %fieldName = %fieldValue, %field2Name = %field2Value"
 "Attribute object is undefined","Attributobjekt är inte definierad"
 """%1"" invalid type entered.","""%1"" ogiltig typ angiven."
@@ -2443,6 +2445,7 @@ Newsletters,Nyhetsbrev
 "You have no default billing address in your address book.","Du har ingen förvald faktureringsadress i din adressbok."
 "Change Shipping Address","Ändra leveransadress"
 "You have no default shipping address in your address book.","Du har ingen förvald leveranssadress i din adressbok."
+"Street Address: Line %1","Gatuadress: Rad %1"
 "Street Address %1","Gatuadress %1"
 "Go back","Gå tillbaka"
 "Additional Address Entries","Ytterligare adressfält"
@@ -2481,12 +2484,19 @@ Password:,Lösenord:
 "Check the status of orders","Se status på ordrar"
 "View past orders","Visa tidigare beställningar"
 "Store alternative addresses (for shipping to multiple family members and friends)","Lagra alternativa adresser (för frakt till flera familjemedlemmar och vänner)"
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Du måste bekräfta din %customer_email e-post innan du kan logga in (länken är endast giltig en gång):"
 "Confirm Your Account","Bekräfta ditt konto"
+"Thank you for confirming your %store_name account.","Tack för att du bekräftar ditt %store_name konto."
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","För att logga in på vår webbplats och ange ett lösenord, klicka på länken <a href=""%create_password_url""></a>:"
 "Your %store_name email has been changed","Din %store_name E-post har ändrats"
 "We have received a request to change the following information associated with your account at %store_name: email.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: e-post."
+"If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Om du inte har godkänt den här åtgärden, kontakta oss omedelbart via e-post <a href=""""mailto:%store_email"""">%store_email</a>"
 "Your %store_name email and password has been changed","Din %store_name e-post och lösenord har ändrats"
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: e-post."
 "Reset your %store_name password","Återställ ditt %store_name lösenord"
+"There was recently a request to change the password for your account.","Vi har fått en begäran om att ändra lösenordet för ditt konto."
+"If you requested this change, set a new password here:","Om du begärde denna ändring, ange ett nytt lösenord här:"
+"If you did not make this request, you can ignore this email and your password will remain the same.","Om du inte gjorde denna begäran kan du ignorera detta e-postmeddelande och ditt lösenord förblir detsamma."
 "Your %store_name password has been changed","Ditt %store_name lösenord har ändrats"
 "We have received a request to change the following information associated with your account at %store_name: password.","Vi har fått en begäran om att ändra följande information i samband med ditt konto på %store_name: lösenord."
 "Checkout as a new customer","Gå till Kassan som en ny kund"
@@ -2495,11 +2505,14 @@ Password:,Lösenord:
 "Track order history","Följ orderhistoriken"
 "Check out faster","Gå genom kassan snabbare"
 "Checkout using your account","Gå till Kassan med ditt konto"
+"Show Password","Visa lösenord"
 "Are you sure you want to delete this address?","Är du säker du vill ta bort denna adress?"
 Weak,Svagt
 Medium,Medel
 Strong,Starkt
+"Invalid date","Ogiltigt datum"
 "All Customers","Alla kunder"
+"Reset password","Återställ lösenord"
 "Customers Section",Kundsektion
 "Customer Configuration",Kundkonfiguration
 "Account Sharing Options",Kontodelningsalternativ
@@ -3593,13 +3606,17 @@ Administrator,Administratör
 Author,Författare
 "Summary Rating","Sammanfattande värdering"
 "Detailed Rating","Detaljerad betygsättning"
+"New Rating","Nytt betyg"
 "Is Active","Är aktiv"
 "Reviews %1","Recensioner %1"
 "Customer Reviews",Kundrecensioner
 Ratings,Betyg
 "My Product Reviews","Mina Produktrecensioner"
+Rating,Betyg
 "You have submitted no reviews.","Du har inte skickat några recensioner."
+"My Recent Reviews","Mina senaste omdömen"
 "View All","Visa alla"
+"Average Customer Rating:","Genomsnittlingt kundbetyg:"
 "Be the first to review this product","Bli först med att recensera denna produkt"
 "You're reviewing:","Du recenserar:"
 "Submit Review","Skicka recension"
@@ -3607,6 +3624,7 @@ Ratings,Betyg
 "%1 Review(s)","%1 recension(er)"
 "Review by","Recension av"
 "Posted on",Publicerad
+"Average Customer Rating","Genomsnittlingt kundbetyg"
 "Product Review (submitted on %1):","Produktrecension (publicerad %1):"
 "Reward Points History","Bonuspoäng Historik"
 "Expired reward","Utgången bonus"
