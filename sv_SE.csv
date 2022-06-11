@@ -48,6 +48,7 @@ notice,avisering
 Close,Stäng
 "See All (","Visa alla ("
 " unread)"," olästa)"
+"System Messages",Systemmeddelanden
 "Show Toolbar","Visa verktygsfält"
 "Show List","Visa lista"
 "Use HTTPS to Get Feed","Hämta feed via HTTPS"
@@ -273,6 +274,7 @@ Dismiss,Avfärda
 ", %1 failed to update",", %1 gick inte att uppdatera"
 "Something went wrong.","Något gick fel."
 "Action Log",Åtgärdslogg
+Report,Rapport
 "Bulk Actions",Massåtgärder
 "Days Saved in Log","Dagar som sparas i loggen"
 "Description of Operation","Beskrivning av åtgärden"
@@ -363,6 +365,10 @@ Environment,Miljö
 options,alternativ
 "Select all","Markera alla"
 "Deselect all","Avmarkera alla"
+Page,Sida
+Previous,Föregående
+Next,Nästa
+Show,Visa
 "%s of %s selected","%s av %s valda"
 "B2B Features",B2B-funktioner
 "Invalid Form Key. Please refresh the page.","Ogiltig Form nyckel. Vänligen uppdatera sidan."
@@ -547,6 +553,7 @@ Dashboard,Översikt
 "You saved the store.","Du har sparat butiken."
 "Something went wrong while saving. Please review the error log.","Något gick fel när du sparade. Vänligen Granska felloggen."
 "Authentication storage is incorrect.","Autentisering lagring är felaktiga."
+Today,Idag
 "Last 24 Hours","Senaste 24 timmarna"
 "Last 7 Days","Senaste 7 dagarna"
 "Current Month","Aktuell månad"
@@ -581,8 +588,6 @@ password,lösenord
 "Sign Out","Logga ut"
 "About the calendar","Om kalendern"
 "Go Today","Gå till Idag"
-Previous,Föregående
-Next,Nästa
 Time,Tid
 Hour,Timme
 Minute,Minut
@@ -1488,7 +1493,6 @@ Prev,Föregående
 "Items %1-%2 of %3","Artiklar %1-%2 av %3"
 "%1 Item","%1 Artikel"
 "%1 Items","%1 artiklar"
-Show,Visa
 "Sort By","Sortera på"
 "Set Ascending Direction","Sätt stigande sortering"
 "Set Descending Direction","Sätt fallande sortering"
@@ -2293,6 +2297,7 @@ Alphanumeric,Alfanumerisk
 "Address Book",Adressbok
 "Edit Address","Redigera adress"
 "Add New Address","Lägg till ny adress"
+"Customer not logged in","Kunden är inte inloggad"
 "Save Customer","Spara kund"
 "Reset Password","Återställ lösenord"
 "Force Sign-In","Tvinga inloggning"
@@ -2350,7 +2355,6 @@ Unlock,"Lås upp"
 "Something went wrong while validating the VAT ID.","Något gick fel vid valideringen av momsregistreringsnumret."
 "Validate VAT Number","Validera momsregistreringsnummer"
 "Date of Birth",Födelsedag
-Today,Idag
 "Bad request.","Felaktig förfrågan."
 "This confirmation key is invalid or has expired.","Denna bekräftelsenyckel är ogiltigt eller har löpt ut."
 "There was an error confirming the account","Det uppstod ett fel när kontot skulle bekräftas"
@@ -3169,7 +3173,6 @@ items,artiklar
 "All Users","Alla användare"
 "Admin Actions Log","Åtgärdslog för administratör"
 "Admin Actions Archive","Arkiv för adminåtgärder"
-Report,Rapport
 "actions' 'label","åtgärder ' etikett"
 "%1 & applied","%1 & tillämpas"
 "Tax Rates Import","Importera Skattesatser"
@@ -4255,6 +4258,9 @@ Labels,Etiketter
 "Edit Synonym Group","Redigera synonymgrupp"
 "This search no longer exists.","Denna sökning finns inte längre."
 "Search entire store here...","Sök i hela butiken här..."
+"Search Engine",Sökmotor
+"Suggested Terms","Förslag på sökningar"
+Synonyms,Synonymer
 "Account Activity",Kontoaktivitet
 "All other open sessions for this account were terminated.","Alla andra öppna sessioner för det här kontot har avslutats."
 "We couldn't logout because of an error.","Vi kunde inte logga ut på grund av ett fel."
@@ -4640,7 +4646,6 @@ Scope:,Omfattning:
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","För den bästa upplevelsen på vår webbplats, bör du aktivera lokal lagring i din webbläsare."
 "Items %1 to %2 of %3 total","Artiklar %1 till %2 av %3 totala"
 "%1 Item(s)","%1 objekt"
-Page,Sida
 "We don't recognize this file extension.","Vi känner inte igen denna filtyp."
 "1 column","1 kolumn"
 "Default welcome msg!","Standard välkomstmeddelande!"
