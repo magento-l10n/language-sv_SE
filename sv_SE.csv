@@ -1899,6 +1899,8 @@ Total:,Totalt:
 "My billing and shipping address are the same","Min faktura- och leveransadress är densamma"
 Update,Uppdatera
 "Save in address book","Spara i adressboken"
+"Enter your destination to get a shipping estimate.","Ange din leveransadress för att få en leveranskostnadsberäkning."
+"Sorry, no quotes are available for this order at this time","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu"
 "Estimated Total","Uppskattad summa"
 "You can create an account after checkout.","Du kan skapa ett konto efter avslutat köp."
 "You already have an account with us. Sign in or continue as guest.","Du har redan ett konto. Logga in eller fortsätt som gäst."
@@ -3292,6 +3294,7 @@ Wishlist,Önskelistan
 "Order Review","Granska beställning"
 "Ship to:","Leverera till:"
 Error:,Fel:
+"Sorry, no quotes are available for this order right now.","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu."
 "Continue to Billing Information","Fortsätt till Faktureringsinformation"
 "Select Shipping Method","Välj fraktsätt"
 "MySQL Message Queue Cleanup","MySQL Meddelandekö Rensa"
@@ -4018,7 +4021,7 @@ Complete,Slutförd
 "Gift Message for the Entire Order","Gåvameddelande för hela ordern"
 "Custom Price","Anpassat Pris"
 "Move to Shopping Cart","Lägg till i kundvagnen"
-"Sorry, no quotes are available for this order.","Inga offerter tillgängliga för beställningen."
+"Sorry, no quotes are available for this order.","Tyvärr finns inga offerter tillgängliga för den här beställningen."
 "Append Comments","Lägg till kommentarer"
 "Email Order Confirmation","Orderbekräftelse e-post"
 "Grand Total Excl. Tax","Totalsumma Exkl. Moms"
