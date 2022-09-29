@@ -4304,7 +4304,8 @@ Synonyms,Synonymer
 "Please define the correct sender information.","Vänligen definiera rätt avsändarinformation."
 "Cookie (unsafe)","Cookie (osäkra)"
 "Remove Recipent","Ta bort mottagare"
-"Add Invitee","Bjud in en till"
+Invitee,Mottagare
+"Add Invitee","Lägg till mottagare"
 "Welcome, %name","Välkommen, %name"
 "%sender_name wants to share this product with you:","%sender_name vill dela denna produkt med dig:"
 "We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur.","Vi rekommenderar starkt att aktivera en <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA lösning</a> tillsammans med att aktivera ""E-post till en vän"" för att säkerställa missbruk av denna funktion inte inträffar."
