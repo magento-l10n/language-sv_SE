@@ -4291,6 +4291,8 @@ Synonyms,Synonymer
 "The link to a friend was sent.","Länken till en vän skickades."
 "We found some problems with the data.","Vi hittade lite problem med dina data."
 "Some emails were not sent.","Viss e-post skickades inte."
+"Incorrect CAPTCHA","Felaktig CAPTCHA"
+"You've met your limit of %1 sends in an hour.","Du har uppfyllt din begränsning på maximalt %1 skickade produkter per timme."
 "Please enter a sender name.","Vänligen ange ett avsändarnamn."
 "Invalid Sender Email","Ogiltig avsändare Email"
 "Please enter a message.","Fyll i meddelandetexten."
@@ -4302,10 +4304,15 @@ Synonyms,Synonymer
 "Please define the correct sender information.","Vänligen definiera rätt avsändarinformation."
 "Cookie (unsafe)","Cookie (osäkra)"
 "Remove Recipent","Ta bort mottagare"
+"Add Invitee","Bjud in en till"
 "Welcome, %name","Välkommen, %name"
+"%sender_name wants to share this product with you:","%sender_name vill dela denna produkt med dig:"
+"We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur.","Vi rekommenderar starkt att aktivera en <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA lösning</a> tillsammans med att aktivera ""E-post till en vän"" för att säkerställa missbruk av denna funktion inte inträffar."
 "Select Email Template","Välj E-postmall"
 "Allow for Guests","Tillåt för gäster"
 "Max Recipients","Max antal mottagare"
+"Max Products Sent in 1 Hour","Maximalt antal skickade produkter per timme"
+"Limit Sending By","Begränsa skickande med"
 Assign,Tilldela
 of,av
 Assigned,Tilldelad
