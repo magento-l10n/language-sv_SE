@@ -288,6 +288,7 @@ Error,Fel
 "Dismiss All Completed Tasks","Avfärda alla slutförda uppgifter"
 "Action Details - #","Detaljer för åtgärd - #"
 "Number of Records Affected","Antal poster som påverkats"
+"The role wasn't found for the user. Verify the role and try again.","Rollen hittades inte för användaren. Verifiera rollen och försök igen."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Något gick fel vid sammanställa en lista över tillåtna resurser. Du kan läsa mer i loggen undantag."
 "You created the order.","Du skapade beställningen."
 "Order saving error: %1","Sparafel: %1 för beställningen"
@@ -776,13 +777,18 @@ Pagination,Sidbrytning
 "Something went wrong while putting your store into maintenance mode.","Något gick fel samtidigt sätta din butik i underhållsläge."
 "You need more free space to create a backup.","Du behöver mer ledigt utrymme att skapa en säkerhetskopia."
 "You need more permissions to create a backup.","Du behöver fler behörigheter att skapa en säkerhetskopia."
+"We can't create the backup right now.","Vi kan inte skapa säkerhetskopian just nu."
 Backups,Säkerhetskopior
 Backup,Säkerhetskopiering
+"We can't delete one or more backups.","Vi kan inte ta bort en eller flera säkerhetskopior."
 failed,misslyckades
 successful,lyckades
 "You deleted the selected backup(s).","Du har tagit bort de markerade säkerhetskopiorna."
+"Can't load snapshot archive","Kan inte ladda arkivet med ögonblicksbilder"
 "Please correct the password.","Vänligen rätta lösenordet."
 "To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","För att slutföra återställningen, vänligen avmarkera ""Sätt store i underhållsläge"" eller uppdatera dina behörigheter."
+"We can't find the backup file.","Vi kan inte hitta backupfilen."
+"We can't connect to the FTP right now.","Vi kan inte ansluta till FTP just nu."
 "Failed to validate FTP.","Det gick inte att validera FTP."
 "You need more permissions to perform a rollback.","Behöver du fler behörigheter för att utföra en återställning."
 "Failed to rollback.","Det gick inte att ångra."
@@ -800,6 +806,8 @@ Database,Databas
 "Sorry, but we cannot read from or write to backup file ""%1"".","Ledsen, men vi kan inte läsa från eller skriva till backup filen ""%1""."
 "The backup file handler was unspecified.","Filhanteringssystemet i backup var ospecificerade."
 "Something went wrong while writing to the backup file ""%1"".","Något gick fel vid skrivning till den säkerhetskopierade filen ""%1""."
+"We can't save the Cron expression.","Vi kan inte spara cron-uttrycket."
+"Backup functionality is disabled","Säkerhetskopiering är inaktiverat"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Du kommer att förlora all data som skapats sedan säkerhetskopian gjordes, inklusive administratörsanvändare, kunder och order."
 "Are you sure you want to continue?","Är du säker på att du vill fortsätta?"
 "This may take a few moments.","Detta kan ta en stund."
@@ -821,41 +829,84 @@ Exclude,Uteslut
 "FTP Password",FTP-lösenord
 "Magento root directory","Magento rotkatalog"
 "Create Backup","Skapa säkerhetskopia"
+Rollback,Återladdning
+"Backup Settings","Inställningar för säkerhetskopiering"
+"Enable Backup","Aktivera säkerhetskopiering"
 "Enable Scheduled Backup","Aktivera schemalagd säkerhetskopiering"
+"Scheduled Backup Type","Schemalagd säkerhetskopieringstyp"
 Frequency,Frekvens
 "Maintenance Mode","Underhålls-läge: Förhindra kunder att se din butik. De möter istället ett underhålls-meddelande. Om du är inloggad som admin så ser du butiken som vanligt"
 "Are you sure you want to delete the selected backup(s)?","Är du säker på att du vill ta bort de utvalda backup(sen)?"
 Size(bytes),Storlek(bytes)
 Type,Typ
 Download,"Ladda ner"
+"Dynamic Blocks","Dynamiska block"
+"Add Dynamic Block","Lägg till dynamiskt block"
+"Save Dynamic Block","Spara dynamiskt block"
+"Delete Dynamic Block","Ta bort dynamiskt block"
 "Save and Continue Edit","Spara och Fortsätt Redigera"
+"New Dynamic Block","Nytt dynamiskt block"
 "Default Content",Standardinnehåll
 "No Default Content","Inget standardinnehåll"
+"Dynamic Block Default Content for All Store Views","Förvalt innehåll för dynamiska block för alla butiksvyer"
 "Store View Specific Content","Butiksvy specifikt inehåll"
 "Use Default","Använd standard"
 "Related Promotions","Relaterade erbjudanden"
 Rule,Regel
 "Start Date",Startdatum
 "End Date",Slutdatum
+"Dynamic Block Properties","Egenskaper för dynamiska block"
+"Dynamic Block Name","Namn för dynamiskt block"
 Active,Aktiv
 Inactive,Inaktiv
 "Applies To",Gäller
 "Specify Types","Specifiera typer"
+"Dynamic Block Information","Information för dynamiskt block"
+"Dynamic Block","Dynamiskt block"
+"Dynamic Block Type","Typ av dynamiskt block"
+"Are you sure you want to delete these dynamic blocks?","Är du säker på att du vill ta bort de här dynamiska blocken?"
+"Related Dynamic Blocks","Relaterade dynamiska block"
 Position,Plats
 "This rule no longer exists.","Denna regel finns inte längre."
+"You deleted the dynamic block.","Du tog bort det dynamiska blocket."
+"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Något gick fel vid borttagning av data för dynamiskt block. Granska åtgärdsloggen och försök igen."
+"We cannot find a dynamic block to delete.","Vi kan inte hitta ett dynamiskt block att ta bort."
+"This dynamic block no longer exists.","Det här dynamiska blocket finns inte längre."
+"Edit Dynamic Block","Redigera dynamiskt block"
+"Please select a dynamic block(s).","Välj dynamiskt (dynamiska) block."
 "You deleted %1 record(s).","Du bort %1 post(er)."
+"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Något gick fel vid massborttagning av dynamiska block. Granska åtgärdsloggen och försök igen."
+"This dynamic block does not exist.","Det här dynamiska blocket finns inte."
+"You saved the dynamic block.","Du sparade det dynamiska blocket."
+"We cannot save the dynamic block.","Vi kan inte spara det dynamiska blocket."
+"Invalid Request","Ogiltig förfrågan"
 "Please enter a name.","Ange ett namn."
+"Content includes restricted HTML elements. %1","Innehållet innehåller förbjudna HTML-element. %1"
 "-- None --",--Ingen--
+"Invalid content","Ogiltigt innehåll"
 "Content Area",Innehållsområde
 Footer,Sidfot
 Header,Sidhuvud
 "Left Column","Vänster kolumn"
 "Right Column","Höger kolumn"
+"Manage Dynamic Blocks","Hantera dynamiska block"
+"Dynamic Blocks to Display","Dynamiska block att visa"
+"Cart Price Rule Related","Relaterad Kundvagnsprisregel"
+"Catalog Price Rule Related","Relaterad Katalogprisregel"
 "Rotation Mode",Rotationsläge
 "Display all instead of rotating","Visa alla istället för att rotera"
 "One at the time, Random","En åt gången, slumpmässigt"
 "One at the time, Series","En åt gången, i sekvens"
 "One at the time, Shuffle","En åt gången, blandat"
+"Status Label",Statusetikett
+"General Information","Allmän Information"
+"Enable Dynamic Block","Aktivera dynamiskt block"
+"Use Default Value","Använd standardvärde"
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Kundvagnsprisregler gör att du kan ställa in kampanjer för artiklar som finns i varukorgen."
+"Add Cart Price Rules","Lägg till Kundvagnsprisregel"
+"Related Catalog Price Rule","Relaterad Katalogprisregel"
+"Catalog price rules allows you to setup promotions for an items in catalog.","Katalogprisregler gör att du kan ställa in kampanjer för artiklar som finns i katalogen."
+"Add Selected","Lägg till markerade"
 Visibility,Synlighet
 "Customer Segment",Kundsegment
 "Allowed Credit Card Types","Tillåtna typer av kreditkort"
@@ -976,7 +1027,6 @@ Fixed,Fast
 "Add Products to Option","Lägg till produkter till alternativ"
 "Delete Option","Radera alternativ"
 "What are you looking for?","Vad letar du efter?"
-"Use Default Value","Använd standardvärde"
 "There is no defined renderer for ""%1"" option type.","Det finns inga definierade renderare för alternativtyp ""%1""."
 "Could not save child: ""%1""","Kunde inte spara underliggande: ""%1"""
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Produkt med art. nr: ""%1"" innehåller inte alternativet: ""%2"""
@@ -2050,7 +2100,6 @@ View,Visa
 "Select Page...","Välj sida..."
 "CMS Page Link Block Template","CMS-sidlänk blockmall"
 "Select Block...","Välj Block..."
-"General Information","Allmän Information"
 "Enable Block","Aktivera block"
 "Block Title",Blocktitel
 "Page Information",Sidinformation
@@ -2087,6 +2136,7 @@ State/Province:,Län/provins:
 "Last Name:",Efternamn:
 Gender:,Kön:
 Duplicated,Duplicerad
+title,titel
 "Company Structure",Företagsstruktur
 "New Company","Nytt företag"
 "Thank you! We're reviewing your request and will contact you soon","Tack! Vi granskar din begäran och kommer att kontakta dig snart"
@@ -2095,14 +2145,47 @@ Duplicated,Duplicerad
 "A total of %1 record(s) were updated.","Totalt %1 post(er) har uppdaterats."
 "Something went wrong. Please try again later.","Något gick fel, vänligen försök igen senare."
 "Invalid value of ""%value"" provided for the email field.","Ogiltigt värde för ”%value” angivet för fältet E-post."
+"Invalid value ""%value"" given for the website ID field.","Ogiltigt värde ""%value"" angivet för webbplatsens ID-fält."
 "You have deleted company %companyName.","Du har raderat företaget %companyName."
 "The company no longer exists.","Företaget finns inte längre."
 "The requested company is not found","Det begärda företaget hittades inte"
 "can not be saved","kan inte sparas"
 "A total of %1 record(s) were deleted.","Totalt %1 post(er) raderades."
 "Could not save company","Kunde inte spara företaget"
+"You have saved company %companyName.","Du har sparat företaget %companyName."
+"You have created company %companyName.","Du har skapat företag %companyName."
+"You have accepted the invitation to the company","Du har accepterat inbjudan till företaget"
+"Error occurred when trying to accept the invitation. Please try again later.","Ett fel inträffade när inbjudan skulle accepteras. Försök igen senare."
+"A user with this email address already exists in the system. If you proceed, the user will be linked to your company.","En användare med denna e-postadress finns redan i systemet. Om du fortsätter kommer användaren att kopplas till ditt företag."
+"A user with this email address is already a member of your company.","En användare med denna e-postadress är redan medlem i ditt företag."
+"A user with this email address already exists in the system. Enter a different email address to create this user.","En användare med denna e-postadress finns redan i systemet. Ange en annan e-postadress för att skapa den här användaren."
+"You are not allowed to do this.","Du är inte tillåten att göra detta."
+"Cannot create the customer.","Kan inte skapa kunden."
+"The customer was successfully created.","Kunden har skapats."
+"You cannot delete yourself.","Du kan inte ta bort dig själv."
+"Cannot delete this user.","Kan inte ta bort den här användaren."
+"%1's account has been set to Inactive.","%1 konto har inaktiverats."
+"The customer was successfully deleted.","Kunden har tagits bort."
+"The customer was successfully updated.","Kunden har uppdaterats."
+"Company Profile",Företagsprofil
+"The changes you made on the company profile have been successfully saved.","De ändringar du gjort på företagsprofilen har sparats."
+"You must fill in all required fields before you can continue.","Du måste fylla i alla obligatoriska fält innan du kan fortsätta."
+"Bad Request","Felaktig förfrågan"
+"You have deleted role %companyRoleName.","Du har tagit bort rollen %companyRoleName."
 "Add New Role","Lägg till ny roll"
 "Edit Role","Redigera roll"
+"Roles and Permissions","Roller och behörigheter"
+"The tree retrieved successfully.","Trädet hämtades framgångsrikt."
+"The item was successfully moved.","Objektet har flyttats."
+"The team was successfully deleted.","Teamet har tagits bort."
+"The team was successfully updated.","Teamet har uppdaterats."
+"The team was successfully created.","Teamet har skapats."
+"Company Users",Företagsanvändare
+"A customer with the same email already assigned to company.","En kund med samma e-post som redan tilldelats företaget."
+"Invitation was sent to an existing customer, they will be added to your organization once they accept the invitation.","Inbjudan skickades till en befintlig kund, de kommer att läggas till i din organisation när de accepterar inbjudan."
+"Pending Approval","Väntar på godkännande"
+Rejected,Avvisad
+Blocked,Blockerad
 "Company admin",Företagsadministratör
 "Company user",Företagsanvändare
 "Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName."
@@ -2168,7 +2251,6 @@ Add,"Lägg till"
 "The value you set has already been locked. To change the value, use the --%1 option.","Det värde du anger har redan låsts. För att ändra värdet, Använd flaggan--%1."
 "You saved the configuration.","Du sparade konfigurationen."
 "Something went wrong while saving this configuration:","Något gick fel när den här konfigurationen sparades:"
-title,titel
 Specified,Angivna
 "Some error","Något gick fel"
 "Add after","Lägg till efter"
@@ -2178,6 +2260,7 @@ Specified,Angivna
 "Field 3.1.1","Fält 3.1.1"
 "Field 4","Fält 4"
 "Email to a Friend","E-posta till en vän"
+"Product with assigned super attributes should not have specified ""%1"" value","En produkt med tilldelade superattribut bör inte ha specificerat ""%1"" värde"
 "Add configurable attributes to the current Attribute Set (""%1"")","Lägga till konfigurerbara attribut till det nuvarande attributet (""%1"")"
 "Add configurable attributes to the new Attribute Set based on current","Lägg till konfigurerbara attribut till det nya attributsetet baserat på det aktuella"
 "New attribute set name","Nytt attribut setnamn"
@@ -2252,9 +2335,12 @@ Daily,Dagligen
 Weekly,Veckovis
 Monthly,Månatligen
 "Invalid cron expression: %1","Ogiltig cron-uttryck: %1"
+"Invalid cron expression, expecting 'match/modulus': %1","Ogiltigt cron-uttryck, förväntar sig ""match/modulus"": %1"
 "Invalid cron expression, expecting numeric modulus: %1","Ogiltig cron-värde, väntar numeriska modulus: %1"
+"Invalid cron expression, expecting 'from-to' structure: %1","Ogiltigt cron-uttryck, förväntar sig 'från-till' struktur: %1"
 "Cron (Scheduled Tasks)","Cron (schemalagda aktiviteter)"
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","För rätt URL: er som genereras under cron kontrollera att Web > säkra och osäkra Base webbadresser uttryckligen anges. Alla tider är i minuter."
+"Cron configuration options for group:","Cron-konfigurationsalternativ för grupp:"
 "Generate Schedules Every","Generera scheman varje"
 "Schedule Ahead for","Schemalägga framåt för"
 "Missed if Not Run Within","Missas om detta inte körs inom"
@@ -3799,7 +3885,6 @@ Capture,Fakturera
 "Save Status","Spara status"
 "Order Status Information",Beställningsstatus-information
 "Status Code",Statuskod
-"Status Label",Statusetikett
 "Store View Specific Labels","Butiksvy-specifika etiketter"
 "Total Paid","Totalt betalt"
 "Are you sure you want to send an order email to customer?","Är du säker du vill mejla beställningen till kunden?"
@@ -4217,6 +4302,7 @@ Labels,Etiketter
 "No Coupon","Ingen kupong"
 "Conditions combination",Villkorskombination
 "Price in cart","Pris i varukorg"
+"Cart Price Rule",Kundvagnsprisregel
 "Public In RSS Feed","Öppen RSS-Feed"
 "Maximum Qty Discount is Applied To","Maximalt Antal Rabatter Tillämpas På"
 "Discount Qty Step (Buy X)","Rabatt Antal Steg (Köp X)"
