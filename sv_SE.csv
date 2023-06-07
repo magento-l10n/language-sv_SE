@@ -2,10 +2,10 @@ All,Alla
 None,Inga
 "Allowed Scopes","Tillåten omfattning"
 "You need more permissions to apply some of the rule updates.","Du behöver högre behörighet för att tillämpa några av regeluppdateringarna."
-"More permissions are needed to save this item.","Mer rättigheter behövs för att spara detta objekt."
 "You need more permissions to access website ""%1"".","Du behöver högre behörighet för att visa webbsidan ""%1""."
 "Role Scopes",Roll-omfattning
 Custom,Anpassad
+"More permissions are needed to save this item.","Mer rättigheter behövs för att spara detta objekt."
 "Read Details","Läs detaljer"
 "Mark as Read","Markera som läst"
 "Are you sure?","Är du säker?"
@@ -23,7 +23,6 @@ Notifications,Aviseringar
 "Total of %1 record(s) have been removed.","Totalt %1 post(er) har tagits bort."
 "We couldn't remove the messages because of an error.","Vi kunde inte ta bort meddelanden på grund av ett fel."
 "The message has been removed.","Meddelandet har tagits bort."
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Du har tittat på och löst alla senaste systemmeddelanden. Vänligen uppdatera webbsidan för att få bort varningsnotisen."
 "1 Hour","1 timme"
 "2 Hours","2 timmar"
 "6 Hours","6 timmar"
@@ -48,7 +47,6 @@ notice,avisering
 Close,Stäng
 "See All (","Visa alla ("
 " unread)"," olästa)"
-"System Messages",Systemmeddelanden
 "Show Toolbar","Visa verktygsfält"
 "Show List","Visa lista"
 "Use HTTPS to Get Feed","Hämta feed via HTTPS"
@@ -58,6 +56,7 @@ Severity,Nivå
 "Date Added","Tillagd datum"
 Message,Meddelande
 Actions,Åtgärder
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Du har tittat på och löst alla senaste systemmeddelanden. Vänligen uppdatera webbsidan för att få bort varningsnotisen."
 "Manage Shopping Cart","Hantera varukorgen"
 "Create Order","Skapa Order"
 Back,Tillbaka
@@ -288,8 +287,8 @@ Error,Fel
 "Dismiss All Completed Tasks","Avfärda alla slutförda uppgifter"
 "Action Details - #","Detaljer för åtgärd - #"
 "Number of Records Affected","Antal poster som påverkats"
-"The role wasn't found for the user. Verify the role and try again.","Rollen hittades inte för användaren. Verifiera rollen och försök igen."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Något gick fel vid sammanställa en lista över tillåtna resurser. Du kan läsa mer i loggen undantag."
+"The role wasn't found for the user. Verify the role and try again.","Rollen hittades inte för användaren. Verifiera rollen och försök igen."
 "You created the order.","Du skapade beställningen."
 "Order saving error: %1","Sparafel: %1 för beställningen"
 "Please choose a payment method.","Välj en betalningsmetod."
@@ -366,10 +365,6 @@ Environment,Miljö
 options,alternativ
 "Select all","Markera alla"
 "Deselect all","Avmarkera alla"
-Page,Sida
-Previous,Föregående
-Next,Nästa
-Show,Visa
 "%s of %s selected","%s av %s valda"
 "B2B Features",B2B-funktioner
 "Invalid Form Key. Please refresh the page.","Ogiltig Form nyckel. Vänligen uppdatera sidan."
@@ -553,11 +548,10 @@ Dashboard,Översikt
 "An inactive store view cannot be saved as default store view","En inaktiv butiksvy kan inte sparas som standard butiksvy"
 "You saved the store.","Du har sparat butiken."
 "Something went wrong while saving. Please review the error log.","Något gick fel när du sparade. Vänligen Granska felloggen."
-"Authentication storage is incorrect.","Autentisering lagring är felaktiga."
-Today,Idag
 "Last 24 Hours","Senaste 24 timmarna"
 "Last 7 Days","Senaste 7 dagarna"
 "Current Month","Aktuell månad"
+"Authentication storage is incorrect.","Autentisering lagring är felaktiga."
 Order,Beställning
 "Order #%1","Beställ #%1"
 "Sorry, you need permissions to view this content.","Tyvärr, du behöver rättigheter för att visa detta innehåll."
@@ -571,9 +565,9 @@ Username,Användarnamn
 Password,Lösenord
 password,lösenord
 "Sign in","Logga in"
+"Select Range:","Välj intervall:"
 "No Data Found","Inga Data hittades"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Diagrammet är inaktiverad. För att aktivera diagrammet, klicka <a href=""%1""> här</a>."
-"Select Range:","Välj intervall:"
 "Last Orders","Senaste ordrarna"
 "Last Search Terms","Senaste söktermererna"
 "Top Search Terms","Topp söktermerna"
@@ -589,6 +583,8 @@ password,lösenord
 "Sign Out","Logga ut"
 "About the calendar","Om kalendern"
 "Go Today","Gå till Idag"
+Previous,Föregående
+Next,Nästa
 Time,Tid
 Hour,Timme
 Minute,Minut
@@ -625,7 +621,6 @@ selected,utvalda
 "This tab contains invalid data. Please resolve this before saving.","Denna flik innehåller ogiltiga data. Vänligen åtgärda detta innan du sparar."
 "The information in this tab has been changed.","Informationen i den här fliken har ändrats."
 Loading...,Laddar...
-"User Agent Rules","User Agent regler"
 "We could not detect a size.","Vi kunde inte hitta en storlek."
 "Allow everything","Tillåt allt"
 "Global Search","Global sökning"
@@ -755,9 +750,9 @@ Description,Beskrivning
 Tags,Taggar
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404-fel</h1> <p>Sidan kan inte hittas.</p>"
 "Default Theme",Standardtema
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Om inget värde anges, används systemstandard. Systemstandard kan ändras genom tillägg från tredje part."
 "Applied Theme","Tillämpat tema"
 "Design Rule","Design regler"
+"User Agent Rules","User Agent regler"
 Pagination,Sidbrytning
 "How many links to display at once.","Hur många länkar som ska visas på en gång."
 "Pagination Frame",Sidbrytningsram
@@ -768,6 +763,7 @@ Pagination,Sidbrytning
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternativ text för föregående sidor länk i menyn sidnumrering. Om den är tom, används standardbilden för pilen."
 "Anchor Text for Next","Ankartexten för nästa"
 "Theme Name",Temanamn
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Om inget värde anges, används systemstandard. Systemstandard kan ändras genom tillägg från tredje part."
 "System Backup","Säkerhetskopia av systemet"
 "Database and Media Backup","Databas och Media Backup"
 "Database Backup","Säkerhetskopiering av databasen"
@@ -807,7 +803,6 @@ Database,Databas
 "The backup file handler was unspecified.","Filhanteringssystemet i backup var ospecificerade."
 "Something went wrong while writing to the backup file ""%1"".","Något gick fel vid skrivning till den säkerhetskopierade filen ""%1""."
 "We can't save the Cron expression.","Vi kan inte spara cron-uttrycket."
-"Backup functionality is disabled","Säkerhetskopiering är inaktiverat"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Du kommer att förlora all data som skapats sedan säkerhetskopian gjordes, inklusive administratörsanvändare, kunder och order."
 "Are you sure you want to continue?","Är du säker på att du vill fortsätta?"
 "This may take a few moments.","Detta kan ta en stund."
@@ -830,74 +825,71 @@ Exclude,Uteslut
 "Magento root directory","Magento rotkatalog"
 "Create Backup","Skapa säkerhetskopia"
 Rollback,Återladdning
-"Backup Settings","Inställningar för säkerhetskopiering"
-"Enable Backup","Aktivera säkerhetskopiering"
 "Enable Scheduled Backup","Aktivera schemalagd säkerhetskopiering"
-"Scheduled Backup Type","Schemalagd säkerhetskopieringstyp"
 Frequency,Frekvens
 "Maintenance Mode","Underhålls-läge: Förhindra kunder att se din butik. De möter istället ett underhålls-meddelande. Om du är inloggad som admin så ser du butiken som vanligt"
 "Are you sure you want to delete the selected backup(s)?","Är du säker på att du vill ta bort de utvalda backup(sen)?"
 Size(bytes),Storlek(bytes)
 Type,Typ
 Download,"Ladda ner"
-"Dynamic Blocks","Dynamiska block"
-"Add Dynamic Block","Lägg till dynamiskt block"
-"Save Dynamic Block","Spara dynamiskt block"
-"Delete Dynamic Block","Ta bort dynamiskt block"
+"Backup functionality is disabled","Säkerhetskopiering är inaktiverat"
+"Backup Settings","Inställningar för säkerhetskopiering"
+"Enable Backup","Aktivera säkerhetskopiering"
+"Scheduled Backup Type","Schemalagd säkerhetskopieringstyp"
 "Save and Continue Edit","Spara och Fortsätt Redigera"
-"New Dynamic Block","Nytt dynamiskt block"
 "Default Content",Standardinnehåll
 "No Default Content","Inget standardinnehåll"
-"Dynamic Block Default Content for All Store Views","Förvalt innehåll för dynamiska block för alla butiksvyer"
 "Store View Specific Content","Butiksvy specifikt inehåll"
 "Use Default","Använd standard"
 "Related Promotions","Relaterade erbjudanden"
 Rule,Regel
 "Start Date",Startdatum
 "End Date",Slutdatum
-"Dynamic Block Properties","Egenskaper för dynamiska block"
-"Dynamic Block Name","Namn för dynamiskt block"
 Active,Aktiv
 Inactive,Inaktiv
 "Applies To",Gäller
 "Specify Types","Specifiera typer"
+Visibility,Synlighet
+Position,Plats
+"This rule no longer exists.","Denna regel finns inte längre."
+"You deleted %1 record(s).","Du bort %1 post(er)."
+"Please enter a name.","Ange ett namn."
+"-- None --",--Ingen--
+"Content Area",Innehållsområde
+Footer,Sidfot
+Header,Sidhuvud
+"Left Column","Vänster kolumn"
+"Right Column","Höger kolumn"
+"Rotation Mode",Rotationsläge
+"Display all instead of rotating","Visa alla istället för att rotera"
+"One at the time, Random","En åt gången, slumpmässigt"
+"One at the time, Series","En åt gången, i sekvens"
+"One at the time, Shuffle","En åt gången, blandat"
+"Dynamic Blocks","Dynamiska block"
+"Add Dynamic Block","Lägg till dynamiskt block"
+"Save Dynamic Block","Spara dynamiskt block"
+"Delete Dynamic Block","Ta bort dynamiskt block"
+"New Dynamic Block","Nytt dynamiskt block"
+"Dynamic Block Default Content for All Store Views","Förvalt innehåll för dynamiska block för alla butiksvyer"
+"Dynamic Block Properties","Egenskaper för dynamiska block"
+"Dynamic Block Name","Namn för dynamiskt block"
 "Dynamic Block Information","Information för dynamiskt block"
 "Dynamic Block","Dynamiskt block"
 "Dynamic Block Type","Typ av dynamiskt block"
 "Are you sure you want to delete these dynamic blocks?","Är du säker på att du vill ta bort de här dynamiska blocken?"
 "Related Dynamic Blocks","Relaterade dynamiska block"
-Position,Plats
-"This rule no longer exists.","Denna regel finns inte längre."
 "You deleted the dynamic block.","Du tog bort det dynamiska blocket."
 "Something went wrong while deleting dynamic block data. Please review the action log and try again.","Något gick fel vid borttagning av data för dynamiskt block. Granska åtgärdsloggen och försök igen."
 "We cannot find a dynamic block to delete.","Vi kan inte hitta ett dynamiskt block att ta bort."
 "This dynamic block no longer exists.","Det här dynamiska blocket finns inte längre."
 "Edit Dynamic Block","Redigera dynamiskt block"
 "Please select a dynamic block(s).","Välj dynamiskt (dynamiska) block."
-"You deleted %1 record(s).","Du bort %1 post(er)."
 "Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Något gick fel vid massborttagning av dynamiska block. Granska åtgärdsloggen och försök igen."
 "This dynamic block does not exist.","Det här dynamiska blocket finns inte."
 "You saved the dynamic block.","Du sparade det dynamiska blocket."
 "We cannot save the dynamic block.","Vi kan inte spara det dynamiska blocket."
-"Invalid Request","Ogiltig förfrågan"
-"Please enter a name.","Ange ett namn."
-"Content includes restricted HTML elements. %1","Innehållet innehåller förbjudna HTML-element. %1"
-"-- None --",--Ingen--
-"Invalid content","Ogiltigt innehåll"
-"Content Area",Innehållsområde
-Footer,Sidfot
-Header,Sidhuvud
-"Left Column","Vänster kolumn"
-"Right Column","Höger kolumn"
 "Manage Dynamic Blocks","Hantera dynamiska block"
 "Dynamic Blocks to Display","Dynamiska block att visa"
-"Cart Price Rule Related","Relaterad Kundvagnsprisregel"
-"Catalog Price Rule Related","Relaterad Katalogprisregel"
-"Rotation Mode",Rotationsläge
-"Display all instead of rotating","Visa alla istället för att rotera"
-"One at the time, Random","En åt gången, slumpmässigt"
-"One at the time, Series","En åt gången, i sekvens"
-"One at the time, Shuffle","En åt gången, blandat"
 "Status Label",Statusetikett
 "General Information","Allmän Information"
 "Enable Dynamic Block","Aktivera dynamiskt block"
@@ -907,7 +899,8 @@ Header,Sidhuvud
 "Related Catalog Price Rule","Relaterad Katalogprisregel"
 "Catalog price rules allows you to setup promotions for an items in catalog.","Katalogprisregler gör att du kan ställa in kampanjer för artiklar som finns i katalogen."
 "Add Selected","Lägg till markerade"
-Visibility,Synlighet
+"Cart Price Rule Related","Relaterad Kundvagnsprisregel"
+"Catalog Price Rule Related","Relaterad Katalogprisregel"
 "Customer Segment",Kundsegment
 "Allowed Credit Card Types","Tillåtna typer av kreditkort"
 "Add Rule","Lägg till regel"
@@ -1067,8 +1060,8 @@ Invoiced,Fakturerad
 Shipped,Skickad
 Refunded,Återbetald
 Canceled,Avbruten
-"Regular Price","Ordinarie pris"
 "As low as","Så lågt som"
+"Regular Price","Ordinarie pris"
 "Buy %1 with %2 discount each","Köp %1 med %2 rabatt på varje"
 "Go back to product details","Gå tillbaka till produktinformation"
 "Customize and Add to Cart","Anpassa och lägga till i varukorgen"
@@ -1122,8 +1115,6 @@ Root,Rot
 "Add Subcategory","Lägg till underkategori"
 "Add Root Category","Lägg till huvud kategori"
 Day,Dag
-from,från
-to,till
 [GLOBAL],[GLOBALT]
 "[STORE VIEW]",[BUTIKSVY]
 "WYSIWYG Editor",Wysiwyg-redigerare
@@ -1184,9 +1175,9 @@ Empty,Tom
 "Add Attribute","Lägg till Attribut"
 "Add New Group","Lägg till ny grupp"
 "Add Group","Lägg till grupp"
+"Edit Attribute Set Name","Redigera attribut set namn"
 "For internal use","För internt bruk"
 "Based On","Baserat på"
-"Edit Attribute Set Name","Redigera attribut set namn"
 "Add New Attribute Set","Lägg till nytt attributset"
 "Add Attribute Set","Lägg till attributset"
 "Attribute Sets",Attributsets
@@ -1259,12 +1250,11 @@ Categories,Kategorier
 "Category is not available for requested store.","Kategorin finns inte i vald butik."
 "There was a category move error.","Det uppstod ett fel vid flytt av kategori."
 "You moved the category.","Du flyttade kategorin."
-"Something went wrong while saving the category.","Ett fel uppstod vid sparande av kategorin."
 "You saved the category.","Du sparade kategorin."
+"Something went wrong while saving the category.","Ett fel uppstod vid sparande av kategorin."
 "Please select products for attributes update.","Välj produkter för attribut-uppdatering."
 "Please make sure to define SKU values for all processed products.","Kontrollera att alla bearbetade produkter har ett artikelnummer."
 "Something went wrong while updating the product(s) attributes.","Något gick fel vid uppdatering av attribut på produkt(er)."
-"Something went wrong while processing the request.","Något gick fel vid bearbetning av begäran."
 "Unable to add attribute","Det gick inte att lägga till attribut"
 "Manage Product Attributes","Hantera produktattribut"
 "We can't delete the attribute.","Vi kan inte ta bort attributet."
@@ -1278,6 +1268,7 @@ Categories,Kategorier
 "You saved the product attribute.","Du sparade produktens attribut."
 "An attribute with this code already exists.","Ett attribut med denna kod existerar redan."
 "An attribute with the same code (%1) already exists.","Ett attribut med samma kod (%1) existerar redan."
+"The value of Admin must be unique.","Värdet för Admin måste vara unikt."
 "The value of Admin scope can't be empty.","Värdet för Admin scope kan inte vara tomt."
 "You duplicated the product.","Du duplicerade produkten"
 "This product doesn't exist.","Denna produkt existerar inte."
@@ -1387,6 +1378,9 @@ Category,Kategori
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Ogiltigt attribut kostnad = %cost. Rad-ID: SKU = %SKU, Store-ID: %storeId."
 "Could not save Prices.","Kunde inte spara priser."
 "Could not delete Prices","Kunde inte ta bort priser"
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Begärd produkt existerar inte. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
+"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut %label = %priceTo. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut Pris = %price. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
 "Could not save Tier Prices","Kunde inte spara Gruppris"
 "Could not replace Tier Prices","Kunde inte ersätta Gruppris"
 "Could not delete Tier Prices","Kunde inte ta bort Gruppriser"
@@ -1398,6 +1392,7 @@ Category,Kategori
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Vi hittade en dubblett webbplats, tier pris, kundgrupp och kvantitet: kundgrupp = %customerGroup, webbplats-ID = % websiteId, kvantitet = %qty. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty."
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ingen sådan enhet med Gundgrupp = %customerGroup. Rad-ID: SKU = %SKU, webbplats-ID: % websiteId, kundgrupp: %customerGroup, kvantitet: %qty."
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Produkten har inte grupppris med sådan data: customerGroupId = '%1', hemsida = %2, qty = %3"
+"Something went wrong while processing the request.","Något gick fel vid bearbetning av begäran."
 "Not Visible Individually","Syns inte individuellt"
 "Catalog, Search","Katalog, Sök"
 "Something went wrong while removing products from the websites.","Något gick fel vid borttagning av produkter från webbplatser."
@@ -1418,11 +1413,7 @@ Category,Kategori
 Dropdown,Rullgardinsmeny
 "Could not get extension attributes","Kunde inte få extension attribut"
 message,meddelande
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut Pris = %price. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Begärd produkt existerar inte. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
-"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ogiltigt attribut %label = %priceTo. Rad-ID: SKU = %SKU, Store-ID: %storeId, Pris från: %priceFrom, pris till: %priceTo."
 "Lock wait timeout","Väntan för lås överskreds"
-"Product Name or SKU","Produktnamn eller artikelnummer"
 "Advanced Pricing","Avancerad prissättning"
 "Customer Group Price",Kundgruppspris
 "Customer Group",Kundgrupp
@@ -1464,12 +1455,11 @@ name,namn
 "Manage Titles (Size, Color, etc.)","Hantera titlar (storlek, färg, etc.)"
 "Manage Options (Values of Your Attribute)","Hantera alternativ (värden på ditt attribut)"
 "Sort Option",Sorteringsalternativ
-"The value of Admin must be unique.","Värdet för Admin måste vara unikt."
 Groups,Grupper
 "Double click on a group to rename it.","Dubbelklicka på en grupp för att byta namn."
 "Unassigned Attributes","Otilldelade attribut"
-"This group contains system attributes. Please move system attributes to another group and try again.","Denna grupp innehåller systemattribut. Vänligen flytta systemattribut till en annan grupp och försök igen."
 "A name is required.","Ett namn krävs."
+"This group contains system attributes. Please move system attributes to another group and try again.","Denna grupp innehåller systemattribut. Vänligen flytta systemattribut till en annan grupp och försök igen."
 "Please select a node.","Välj en nod."
 "Please enter a new group name.","Ange ett nytt gruppnamn."
 "An attribute group named ""/name/"" already exists.","En attributgrupp som heter ""/ namn /"" redan finns."
@@ -1543,24 +1533,21 @@ Prev,Föregående
 "Items %1-%2 of %3","Artiklar %1-%2 av %3"
 "%1 Item","%1 Artikel"
 "%1 Items","%1 artiklar"
+Show,Visa
 "Sort By","Sortera på"
 "Set Ascending Direction","Sätt stigande sortering"
 "Set Descending Direction","Sätt fallande sortering"
 "View as","Visa som"
 "More Information","Mer information"
-"Maximum %1 characters","Max: %1 tecken"
 "Warning message",Varningsmeddelande
 "Configure Product","Konfigurera produkt"
 OK,Ok
-"This value does not follow the specified format (for example, 200X300).","Detta värde följer inte det angivna formatet (till exempel 200 X 300)."
 "Select type of option.","Välj typ av val."
 "Please add rows to option.","Lägg till rader till valet."
 "Choose existing category.","Välj befintlig kategori."
 "Image Detail",Bildkvalitet
 Adding...,"Lägger till..."
 Added,Tillagd
-remaining,återstående
-"too many","för många"
 "does not implement Storage Interface","implementerar inte lagringsgränssnitt"
 "unselect all","avmarkera alla"
 Inventory,Lagerstatus
@@ -1708,6 +1695,13 @@ Overview,Översikt
 "Add To Compare","Lägg till i jämförelse"
 "Learn more","Lär dig mer"
 "Recently Viewed","Senast visade"
+from,från
+to,till
+"Maximum %1 characters","Max: %1 tecken"
+remaining,återstående
+"too many","för många"
+"This value does not follow the specified format (for example, 200X300).","Detta värde följer inte det angivna formatet (till exempel 200 X 300)."
+"Product Name or SKU","Produktnamn eller artikelnummer"
 "Edit Event","Redigera händelse"
 "Add Event","Lägg till händelse"
 Events,Händelser
@@ -1735,13 +1729,13 @@ Closed,Stängd
 "This product is no longer on sale.","Denna produkt är inte längre till försäljning."
 "Some of these products can no longer be sold.","Vissa av dessa produkter kan inte längre säljas."
 "Select Category","Välj kategori"
+Days,Dagar
 Hrs,Timmar
 Mins,Minuter
 Sec,Sekunder
 "Preview Sale","Förhandsvisa försäljning"
 "Go To Sale","Gå till försäljning"
 "View Sale","Visa försäljning"
-Days,Dagar
 "Catalog Events",Katalog-händelser
 "Enable Catalog Events Functionality","Aktivera funktioner för kataloghändelser"
 "Enable Catalog Event Widget on Storefront","Aktivera widget för kataloghändelser i butiksvyn"
@@ -1868,6 +1862,7 @@ Path,Sökväg
 "Catalog Products List","Kataloglistan produkter"
 "List of Products",Produktlista
 "Products Grid Template","Rutnätsmall för produkter"
+"Invalid method: %1","Ogiltig metod: %1"
 "My Cart (1 item)","Min kundvagn (1 artikel)"
 "My Cart (%1 items)","Min kundvagn (%1 artiklar)"
 "My Cart","Min kundvagn"
@@ -1882,7 +1877,6 @@ Path,Sökväg
 "We cannot apply the coupon code.","Vi kan inte använda rabattkoden."
 "We can't remove the item.","Vi kan inte ta bort artikeln."
 "%1 was updated in your shopping cart.","%1 lades till i din kundvagn."
-"Something went wrong while saving the page. Please refresh the page and try again.","Något gick fel när sidan sparades. Vänligen uppdatera sidan och försök igen."
 "We can't update the shopping cart.","Vi kan inte uppdatera varukorgen."
 "One-page checkout is turned off.","Onepage kassan är avstängt."
 "Guest checkout is disabled.","Köp för Gäster är inaktiverat."
@@ -1911,7 +1905,6 @@ Checkout,"Till Kassan"
 "Sorry, guest checkout is not available.","Tyvärr kan inte gäster handla."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du måste bekräfta ditt konto. Kontrollera din e-post för att hitta din bekräftelselänk, eller <a href=""%1"">klicka här</a> för att få en ny länk."
 "Load customer quote error","Inläsningsfel för kundoffert"
-"Invalid method: %1","Ogiltig metod: %1"
 Error!,Fel!
 "DB exception","DB undantag"
 "Print receipt","Skriv ut kvitto"
@@ -1949,15 +1942,10 @@ Total:,Totalt:
 "My billing and shipping address are the same","Min faktura- och leveransadress är densamma"
 Update,Uppdatera
 "Save in address book","Spara i adressboken"
-"Enter your destination to get a shipping estimate.","Ange din leveransadress för att få en leveranskostnadsberäkning."
-"Sorry, no quotes are available for this order at this time","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu"
 "Estimated Total","Uppskattad summa"
 "You can create an account after checkout.","Du kan skapa ett konto efter avslutat köp."
 "You already have an account with us. Sign in or continue as guest.","Du har redan ett konto. Logga in eller fortsätt som gäst."
 Login,"Logga in"
-"Items in Cart","Artiklar i kundvagnen"
-"Item in Cart","Artiklar i Kundvagn"
-"View and Edit Cart","Visa och Ändra Varukorgen"
 "See Details","Se detaljer"
 "Options Details","Detaljer för Alternativ"
 "Cart Subtotal",Delsumma
@@ -1968,14 +1956,14 @@ Login,"Logga in"
 "Ship Here","Leverera Hit"
 "Ship To:","Leverera Till:"
 edit,ändra
-"Shipping Address",Leveransadress
-"New Address","Ny adress"
 "Order Summary",Beställningsöversikt
+"View and Edit Cart","Visa och Ändra Varukorgen"
+"Field ","Fält "
+" is required."," är obligatoriskt."
 "Provided Zip/Postal Code seems to be invalid.","Det valda postnumret verkar felaktigt."
 " Example: "," Exempel: "
 "If you believe it is the right one you can ignore this notice.","Om du anser att det är rätt kan du bortse från det här meddelandet."
-"Field ","Fält "
-" is required."," är obligatoriskt."
+"New Address","Ny adress"
 "Are you sure you would like to remove this item from the shopping cart?","Är du säker du vill ta bort artikeln från kundvagnen?"
 "Review & Payments","Granska & betala"
 "Select a new payment method","Välj ett nytt betalsätt"
@@ -2000,10 +1988,15 @@ edit,ändra
 "Separate by "","".","Avgränsa med "",""."
 "Send Payment Failed Email Copy Method","Skicka Misslyckad Betalning E-post Kopia Metod"
 "Order Total",Ordersumma
+"Shipping Address",Leveransadress
 "We'll send your order confirmation here.","Hit skickar vi din orderbekräftelse."
 Payment,Betalning
 "Not yet calculated","Inte beräknat ännu"
 "Thank you for your purchase!","Tack för ditt köp!"
+"Sorry, no quotes are available for this order at this time","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu"
+"Item in Cart","Artiklar i Kundvagn"
+"Items in Cart","Artiklar i kundvagnen"
+"Something went wrong while saving the page. Please refresh the page and try again.","Något gick fel när sidan sparades. Vänligen uppdatera sidan och försök igen."
 "Terms and Conditions","Regler och Villkor"
 "Add New Condition","Lägga till nytt villkor"
 "Save Condition","Spara Regelvillkor"
@@ -2039,6 +2032,7 @@ Identifier,Identifierare
 "Manage Pages","Hantera sidor"
 "Add New Page","Lägg till ny sida"
 "Delete Page","Ta bort sida"
+"Save Page","Spara sida"
 Created,Skapad
 Modified,Ändrad
 "Media Storage",Medialagring
@@ -2087,7 +2081,6 @@ Pages,Sidor
 "Privacy and Cookie Policy","Integritets- och cookiepolicy"
 View,Visa
 "No files found","Hittade inga filer"
-"Save Page","Spara sida"
 "Media Gallery",Mediagalleri
 "Content Management",Innehållshantering
 "CMS Home Page",Startsida
@@ -2136,7 +2129,6 @@ State/Province:,Län/provins:
 "Last Name:",Efternamn:
 Gender:,Kön:
 Duplicated,Duplicerad
-title,titel
 "Company Structure",Företagsstruktur
 "New Company","Nytt företag"
 "Thank you! We're reviewing your request and will contact you soon","Tack! Vi granskar din begäran och kommer att kontakta dig snart"
@@ -2154,8 +2146,6 @@ title,titel
 "Could not save company","Kunde inte spara företaget"
 "You have saved company %companyName.","Du har sparat företaget %companyName."
 "You have created company %companyName.","Du har skapat företag %companyName."
-"You have accepted the invitation to the company","Du har accepterat inbjudan till företaget"
-"Error occurred when trying to accept the invitation. Please try again later.","Ett fel inträffade när inbjudan skulle accepteras. Försök igen senare."
 "A user with this email address already exists in the system. If you proceed, the user will be linked to your company.","En användare med denna e-postadress finns redan i systemet. Om du fortsätter kommer användaren att kopplas till ditt företag."
 "A user with this email address is already a member of your company.","En användare med denna e-postadress är redan medlem i ditt företag."
 "A user with this email address already exists in the system. Enter a different email address to create this user.","En användare med denna e-postadress finns redan i systemet. Ange en annan e-postadress för att skapa den här användaren."
@@ -2164,7 +2154,6 @@ title,titel
 "The customer was successfully created.","Kunden har skapats."
 "You cannot delete yourself.","Du kan inte ta bort dig själv."
 "Cannot delete this user.","Kan inte ta bort den här användaren."
-"%1's account has been set to Inactive.","%1 konto har inaktiverats."
 "The customer was successfully deleted.","Kunden har tagits bort."
 "The customer was successfully updated.","Kunden har uppdaterats."
 "Company Profile",Företagsprofil
@@ -2182,15 +2171,14 @@ title,titel
 "The team was successfully created.","Teamet har skapats."
 "Company Users",Företagsanvändare
 "A customer with the same email already assigned to company.","En kund med samma e-post som redan tilldelats företaget."
-"Invitation was sent to an existing customer, they will be added to your organization once they accept the invitation.","Inbjudan skickades till en befintlig kund, de kommer att läggas till i din organisation när de accepterar inbjudan."
 "Pending Approval","Väntar på godkännande"
 Rejected,Avvisad
 Blocked,Blockerad
 "Company admin",Företagsadministratör
 "Company user",Företagsanvändare
-"Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName."
 "Invalid login or password.","Felaktigt användarnamn eller lösenord."
 "This account is locked.","Detta konto är låst."
+"Invalid value of ""%value"" provided for the %fieldName field.","Ogiltigt värde för ""%value"" för fältet %fieldName."
 "Something went wrong","Något gick fel"
 "Exception message",Undantagsmeddelandet
 "Localized Exception.","Lokaliserade undantag."
@@ -2251,6 +2239,7 @@ Add,"Lägg till"
 "The value you set has already been locked. To change the value, use the --%1 option.","Det värde du anger har redan låsts. För att ändra värdet, Använd flaggan--%1."
 "You saved the configuration.","Du sparade konfigurationen."
 "Something went wrong while saving this configuration:","Något gick fel när den här konfigurationen sparades:"
+title,titel
 Specified,Angivna
 "Some error","Något gick fel"
 "Add after","Lägg till efter"
@@ -2297,13 +2286,13 @@ Select,Välj
 "Upload image","Ladda upp bild"
 "No Image","Ingen bild"
 "Choose a different Product","Välj en annan produkt"
-"Buy %1 for %2 each and","Köp %1 för %2 varje och"
-save,spara
+"New Product Review","Ny produktrecension"
 "Disable Product","Avaktivera produkt"
 "Enable Product","Aktivera produkt"
-"New Product Review","Ny produktrecension"
 "Please choose image(s).","Välj bild(er)."
 "Generate Products","Skapa produkter"
+"Buy %1 for %2 each and","Köp %1 för %2 varje och"
+save,spara
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Tack för att du kontaktar oss med dina kommentarer och frågor. Vi kommer svara dig inom kort."
 "An error occurred while processing your form. Please try again later.","Ett fel uppstod vid bearbetningen av formuläret. Försök igen senare."
 "Write Us","Skriv till oss"
@@ -2385,7 +2374,6 @@ Alphanumeric,Alfanumerisk
 "Address Book",Adressbok
 "Edit Address","Redigera adress"
 "Add New Address","Lägg till ny adress"
-"Customer not logged in","Kunden är inte inloggad"
 "Save Customer","Spara kund"
 "Reset Password","Återställ lösenord"
 "Force Sign-In","Tvinga inloggning"
@@ -2453,6 +2441,7 @@ Unlock,"Lås upp"
 "This email does not require confirmation.","Detta mail kräver inte bekräftelse."
 "Wrong email.","Fel e-post."
 "Your password reset link has expired.","Din länk för återställning av lösenord har gått ut."
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Det finns redan ett konto med denna e-postadress. Om du har angett rätt e-postadress, <a href=""%1""> Klicka här</a> för att återställa ditt lösenord och komma åt ditt konto."
 "Please make sure your passwords match.","Kontrollera att lösenorden matchar."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Om du är en momsregistrerad kund, <a href=""%1"">klicka här</a> för att fylla i din leveransadress och få en korrekt momsberäkning."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Om du är en momsregistrerad kund, <a href=""%1"">klicka här</a> för att fylla i din fakturaadress och få en korrekt momsberäkning."
@@ -2460,6 +2449,7 @@ Unlock,"Lås upp"
 "Password confirmation doesn't match entered password.","Lösenorden stämmer inte överens."
 "Please enter your email.","Ange din e-post."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Om det finns ett konto kopplat till %1 får du ett e-postmeddelande med en länk för att återställa ditt lösenord."
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Detta konto är inte bekräftat. <a href=""%1"">Klicka här</a> för att skicka om bekräftelsemailet."
 "An unspecified error occurred. Please contact us for assistance.","Ett okänt fel har inträffat. Kontakta oss för hjälp."
 "A login and a password are required.","Användarnamn och lösenord krävs."
 "Please enter a new password.","Ange ett nytt lösenord."
@@ -2537,10 +2527,9 @@ Newsletters,Nyhetsbrev
 "You have no default billing address in your address book.","Du har ingen förvald faktureringsadress i din adressbok."
 "Change Shipping Address","Ändra leveransadress"
 "You have no default shipping address in your address book.","Du har ingen förvald leveranssadress i din adressbok."
-"Street Address: Line %1","Gatuadress: Rad %1"
+"Additional Address Entries","Ytterligare adressfält"
 "Street Address %1","Gatuadress %1"
 "Go back","Gå tillbaka"
-"Additional Address Entries","Ytterligare adressfält"
 "Please enter your email below and we will send you the confirmation link.","Vänligen ange din e-postadress nedan så skickar vi en bekräftelselänk."
 "Send confirmation link","Skicka bekräftelselänk"
 "Back to Sign In","Tillbaka till Logga in"
@@ -2562,8 +2551,6 @@ Newsletters,Nyhetsbrev
 "Confirm Password","Bekräfta lösenord"
 "Set a New Password","Ange Nytt Lösenord"
 "You have signed out and will go to our homepage in 5 seconds.","Du har loggats ut och kommer att omdirigeras till vår startsida om 5 sekunder."
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Detta konto är inte bekräftat. <a href=""%1"">Klicka här</a> för att skicka om bekräftelsemailet."
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Det finns redan ett konto med denna e-postadress. Om du har angett rätt e-postadress, <a href=""%1""> Klicka här</a> för att återställa ditt lösenord och komma åt ditt konto."
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Att skapa ett konto har många fördelar: Slutför köp snabbare, spara flera adresser, spåra beställningar med mera."
 "Welcome to %store_name","Välkommen till %store_name"
 "Welcome to %store_name.","Välkommen till %store_name."
@@ -2597,14 +2584,11 @@ Password:,Lösenord:
 "Track order history","Följ orderhistoriken"
 "Check out faster","Gå genom kassan snabbare"
 "Checkout using your account","Gå till Kassan med ditt konto"
-"Show Password","Visa lösenord"
 "Are you sure you want to delete this address?","Är du säker du vill ta bort denna adress?"
 Weak,Svagt
 Medium,Medel
 Strong,Starkt
-"Invalid date","Ogiltigt datum"
 "All Customers","Alla kunder"
-"Reset password","Återställ lösenord"
 "Customers Section",Kundsektion
 "Customer Configuration",Kundkonfiguration
 "Account Sharing Options",Kontodelningsalternativ
@@ -2640,6 +2624,8 @@ Addresses,Adresser
 "Edit Account Information","Redigera kontoinformation"
 "Password forgotten","Glömt lösenord"
 "You are signed out","Du är utloggad"
+"Customer not logged in","Kunden är inte inloggad"
+"Reset password","Återställ lösenord"
 "Delete Orphan Balances","Ta bort överblivna saldon"
 "Balance Change",Balansförändring
 Balance,Saldo
@@ -3368,21 +3354,21 @@ Wishlist,Önskelistan
 "Create Billing Address","Skapa faktureringsadress"
 "Create Shipping Address","Skapa leveransadress"
 "Data saving problem","Problem med att spara data"
-"Maximum qty allowed for Shipping to multiple addresses is %1","Maximalt antal tillåtna för frakt till flera adresser är %1"
 "We cannot open the overview page.","Vi kan inte öppna översiktssidan."
 "Please agree to all Terms and Conditions before placing the order.","Vänligen godkänn köpvillkoren innan du genomför beställningen."
 "Order place error","Ett fel uppstod vid hanteringen av din order"
+"Maximum qty allowed for Shipping to multiple addresses is %1","Maximalt antal tillåtna för frakt till flera adresser är %1"
 "Select Addresses","Välj adresser"
 "Shipping Information",Leveransinformation
 "Billing Information",Faktureringsinformation
 "Enter a New Address","Ange en ny adress"
 "Check Out with Multiple Addresses","Gå till Kassan med Flera Adresser"
 "Order Review","Granska beställning"
-"Ship to:","Leverera till:"
-Error:,Fel:
 "Sorry, no quotes are available for this order right now.","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu."
 "Continue to Billing Information","Fortsätt till Faktureringsinformation"
 "Select Shipping Method","Välj fraktsätt"
+"Ship to:","Leverera till:"
+Error:,Fel:
 "MySQL Message Queue Cleanup","MySQL Meddelandekö Rensa"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","All tid är i minuter. Använd ""0"" om du vill hoppa över automatisk rensning."
 "Retry Messages In Progress After","Försök igen meddelanden pågår efter"
@@ -3448,7 +3434,6 @@ Subscribe,Prenumerera
 "Customer First Name","Kundens Förnamn"
 "Customer Last Name","Kundens efternamn"
 "Newsletter Subscriptions","Prenumerationer på nyhetsbrev"
-"Purchase order number is a required field.","Inköpsordernummer är ett obligatoriskt fält."
 "Make Check payable to:","Checkbetalning till:"
 "Send Check to:","Skicka check till:"
 "Purchase Order Number",Inköpsordernummer
@@ -3462,6 +3447,7 @@ Subscribe,Prenumerera
 "Bank Transfer Payment","Betalning via bankgiro"
 Instructions,Instruktioner
 "Cash On Delivery Payment","Kontant betalning vid leverans"
+"Purchase order number is a required field.","Inköpsordernummer är ett obligatoriskt fält."
 "Shipping Price",Fraktavgift
 "Export CSV","Exportera till CSV"
 "Store Pickup","Hämta i Butik"
@@ -3541,14 +3527,14 @@ Manage,Hantera
 "AVS Zip Does Not Match","AVS Street matchar inte"
 "Card Security Code Does Not Match","Kortets säkerhetskod matchar ej"
 "Payflow Pro and Express Checkout","Payflow Pro och Express Checkout"
+"Not you?","Inte du?"
 "Your shopping cart has been updated with new prices.","Din kundvagn har uppdaterats med nya priser."
+"Welcome, %1!","Välkommen, %1!"
 "We cannot load the configuration from file %1.","Vi kan inte läsa in konfigurationen från filen %1."
 "Method ""%1"" is not defined in ""%2""","Metoden ""%1"" definieras inte i ""%2"""
 "Remember Me","Kom ihåg mig"
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Kontrollera ""Kom ihåg mig"" för att komma åt din varukorg på datorn även om du inte är inloggad."
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Markera ""Kom ihåg mig"" för att komma åt din varukorg på datorn även om du inte är inloggad."
-"Welcome, %1!","Välkommen, %1!"
-"Not you?","Inte du?"
 "Persistent Shopping Cart","Persisterande kundvagn"
 "Enable Persistence","Aktivera beständighet"
 "Persistence Lifetime (seconds)","Persistens livstid (sekunder)"
@@ -3887,6 +3873,7 @@ Capture,Fakturera
 "Status Code",Statuskod
 "Store View Specific Labels","Butiksvy-specifika etiketter"
 "Total Paid","Totalt betalt"
+"Total Due","Totalt att betalas"
 "Are you sure you want to send an order email to customer?","Är du säker du vill mejla beställningen till kunden?"
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Detta kommer skapa en manuell nedkopplad återbetalning. För att skapa en automatisk uppkopplad återbetalning, öppna en faktura och skapa ett kreditfaktura för den. Vill du fortsätta?"
 "Are you sure you want to void the payment?","Är du säker på att du vill makulera betalningen?"
@@ -3929,7 +3916,6 @@ Value,Värde
 "Back to My Orders","Tillbaka till mina beställningar"
 "View Another Order","Visa en annan beställning"
 "About Your Refund","Om din återbetalning"
-"You have placed no orders.","Du har inte gjort några beställningar."
 "Subscribe to Order Status","Prenumerera på beställningsstatus"
 "About Your Invoice","Om din faktura"
 "Print Order # %1","Skriv ut beställning # %1"
@@ -4140,7 +4126,6 @@ Complete,Slutförd
 "The invoice will be created offline without the payment gateway.","Fakturan skapas offline utan betalningsgateway."
 "Email Copy of Invoice","E-posta kopia av fakturan"
 "Items Invoiced","Antal Fakturerade"
-"Total Due","Totalt att betalas"
 "Total Tax","Total skatt"
 "From Name","Från Namn"
 "To Name","Till namn"
@@ -4171,6 +4156,7 @@ Complete,Slutförd
 "Print All Refunds","Skriv ut alla återbetalningar"
 "Refund #","Återbetala #"
 "Print Refund","Skriv ut återbetalning"
+"You have placed no orders.","Du har inte gjort några beställningar."
 "Print Order","Skriv ut beställning"
 "Print All Invoices","Skriv ut alla fakturor"
 "Invoice #","Faktura nr"
@@ -4377,7 +4363,6 @@ Synonyms,Synonymer
 "The link to a friend was sent.","Länken till en vän skickades."
 "We found some problems with the data.","Vi hittade lite problem med dina data."
 "Some emails were not sent.","Viss e-post skickades inte."
-"Incorrect CAPTCHA","Felaktig CAPTCHA"
 "You've met your limit of %1 sends in an hour.","Du har uppfyllt din begränsning på maximalt %1 skickade produkter per timme."
 "Please enter a sender name.","Vänligen ange ett avsändarnamn."
 "Invalid Sender Email","Ogiltig avsändare Email"
@@ -4394,7 +4379,6 @@ Invitee,Mottagare
 "Add Invitee","Lägg till mottagare"
 "Welcome, %name","Välkommen, %name"
 "%sender_name wants to share this product with you:","%sender_name vill dela denna produkt med dig:"
-"We strongly recommend to enable a <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA solution</a> alongside enabling ""Email to a Friend"" to ensure abuse of this feature does not occur.","Vi rekommenderar starkt att aktivera en <a href=""https://devdocs.magento.com/guides/v2.4/security/google-recaptcha.html"" target=""_blank"">CAPTCHA lösning</a> tillsammans med att aktivera ""E-post till en vän"" för att säkerställa missbruk av denna funktion inte inträffar."
 "Select Email Template","Välj E-postmall"
 "Allow for Guests","Tillåt för gäster"
 "Max Recipients","Max antal mottagare"
@@ -4414,12 +4398,10 @@ Assigned,Tilldelad
 "the shipment email is not sent","frakt E-post har inte skickats"
 "Shipment #%1 | %3 (%2)","Leverans #%1 | %3 (%2)"
 "Create Shipping Label...","Skapa sändningsetikett..."
-"Delivered on:","Levererad på:"
 "About Your Shipment","Om din sändning"
 "Cannot add tracking number.","Kan inte lägga till sändningsnummer."
 "You created the shipping label.","Du skapade sändningsetiketten."
 "An error occurred while creating shipping label.","Ett fel uppstod under skapelsen av sändningsetiketten."
-"You sent the shipment.","Du skickade sändelsen."
 "Cannot send shipment information.","Kan inte skicka sändelseinformation."
 "There are no shipping labels related to selected orders.","Det finns inga sändningsetiketter relaterade till valda ordrar."
 "New Shipment","Ny sändelse"
@@ -4460,6 +4442,7 @@ Carrier:,Fraktbolag:
 " for more information or "," för mer information eller "
 "email us at ","maila oss på "
 Track:,Spåra:
+"Delivered on:","Levererad på:"
 "There is no tracking available for this shipment.","Det finns ingen spårning tillgänglig för denna leverans."
 "There is no tracking available.","Det finns ingen spårning tillgänglig."
 "Track history",Spårningshistorik
@@ -4474,6 +4457,7 @@ Origin,Ursprung
 "Shipping Policy",Fraktpolicy
 "Track your order","Spåra din beställning"
 "Track All Shipments","Spåra alla försändelser"
+"You sent the shipment.","Du skickade sändelsen."
 "This order already has associated case entity","Denna beställning har associerat ärende-entitet"
 "The case entity should not be empty.","Entiteten får inte vara tom."
 "Cannot update Case entity.","Kan inte uppdatera entiteten ärende."
@@ -4532,11 +4516,11 @@ Filename,Filnamn
 "Store with the same code","Butik med samma kod"
 "Website with the same code","Webbplats med samma kod"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
+"Name is required","Namn är obligatoriskt"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
 "Store is inactive","Butiken är inaktiv"
 "Invalid store parameter.","Ogiltig butiksparameter."
 "Default store is inactive","Standardbutiken är inaktiv"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Webbplatskod kan endast innehålla bokstäver (a-z), siffror (0-9) eller understreck (_), och det första tecknet måste vara en bokstav."
-"Name is required","Namn är obligatoriskt"
 "no such entity exception","ingen sådan entitet"
 "Your Language:","Ditt språk:"
 "Your Language","Ditt språk"
@@ -4667,9 +4651,9 @@ State/Region,Stat/Region
 "Invalid file upload attempt","Ogiltig filuppladdningsförsök"
 "Invalid file upload attempt.","Ogiltig filuppladdningsförsök."
 "Invalid file format.","Ogiltigt filformat."
-"Country code is invalid: %1","Landskoden är ogiltig: %1"
 "Import Tax Rates","Importera skattesatser"
 "Export Tax Rates","Exportera skattesatser"
+"Country code is invalid: %1","Landskoden är ogiltig: %1"
 "Import/Export Tax Rates","Importera/exportera momssatser"
 "Save and Continue","Spara och Fortsätt"
 "Save Configuration","Spara Konfiguration"
@@ -4707,7 +4691,6 @@ Themes,Teman
 "Insert File","Infoga fil"
 welcome,välkommen
 "Design Configuration",Designkonfiguration
-"We cannot find a theme with id ""%1"".","Vi kan inte hitta ett tema med id ""%1""."
 "You deleted the theme.","Du tog bort temat."
 "We cannot delete the theme.","Vi kan inte ta bort temat."
 "File not found: ""%1"".","Filen hittades inte: ""%1""."
@@ -4715,6 +4698,7 @@ welcome,välkommen
 "We cannot find the theme.","Vi kan inte hitta temat."
 "This theme is not editable.","Detta tema är inte redigerbart."
 "You saved the theme.","Du sparat temat."
+"We cannot find a theme with id ""%1"".","Vi kan inte hitta ett tema med id ""%1""."
 "Invalid type","Ogiltig typ"
 "%1 does not contain field '%2'","%1 innehåller inte fältet '%2'"
 "Invalid regular expression: ""%1"".","Ogiltigt reguljärt uttryck: ""%1""."
@@ -4743,6 +4727,7 @@ Scope:,Omfattning:
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","För den bästa upplevelsen på vår webbplats, bör du aktivera lokal lagring i din webbläsare."
 "Items %1 to %2 of %3 total","Artiklar %1 till %2 av %3 totala"
 "%1 Item(s)","%1 objekt"
+Page,Sida
 "We don't recognize this file extension.","Vi känner inte igen denna filtyp."
 "1 column","1 kolumn"
 "Default welcome msg!","Standard välkomstmeddelande!"
@@ -5030,9 +5015,6 @@ Refused,Vägrade
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Om du har några frågor angående din order kan du mejla oss på <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Alternativ för säkerhetskopiering"
 Warning,Varning
-"Insert Variable","Infoga variabel"
-"Insert Widget","Infoga widget"
-"The widget %1 is no longer available. Select a different widget.","Widgeten %1 är inte längre tillgänglig. Välj en annan widget."
 "Recent items","Senaste objekt"
 "Show all...","Visa alla..."
 "Please enter a number greater 0 in this field.","Du måste fylla in en siffra högre än 0."
@@ -5040,13 +5022,11 @@ Warning,Varning
 "Please specify Url.","Vänligen ange Url."
 "Method %s does not exist on jQuery.decorate","Metoden %s existerar inte i jQuery.decorate"
 "Please wait...","Var god vänta..."
-"All %1","Alla %1"
 Translate,Översätt
 "Letters or punctuation only please","Endast bokstäver och skiljetecken"
 "Letters, numbers, spaces or underscores only please","Endast bokstäver, siffror, mellanslag eller understreck"
 "Letters only please","Endast bokstäver"
 "No white space please","Inga mellanslag"
-"No marginal white space please","Inga yttre mellanslag"
 "Your ZIP-code must be in the range 902xx-xxxx to 905-xx-xxxx","Ditt postnummer måste vara i intervallet 902xx-xxxx till 905xx-xxxx"
 "A positive or negative non-decimal number please","Ett positivt eller negativt icke-decimaltal"
 "The specified vehicle identification number (VIN) is invalid.","Det angivna identifikationsnummer (VIN) för fordonet är ogiltigt."
@@ -5081,3 +5061,7 @@ Translate,Översätt
 "Please enter a valid year (1900-%1).","Ange ett giltigt år (1900-%1)."
 "Please enter a valid day (1-%1).","Ange en giltig dag (1-%1)."
 "Please enter a date from the past.","Ange ett datum i det förflutna."
+"No marginal white space please","Inga yttre mellanslag"
+"Insert Variable","Infoga variabel"
+"Insert Widget","Infoga widget"
+"The widget %1 is no longer available. Select a different widget.","Widgeten %1 är inte längre tillgänglig. Välj en annan widget."
