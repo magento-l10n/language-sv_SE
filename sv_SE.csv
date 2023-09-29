@@ -1906,6 +1906,7 @@ Checkout,"Till kassan"
 "Sorry, guest checkout is not available.","Tyvärr kan inte gäster handla."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du måste bekräfta ditt konto. Kontrollera din e-post för att hitta din bekräftelselänk, eller <a href=""%1"">klicka här</a> för att få en ny länk."
 "Load customer quote error","Inläsningsfel för kundoffert"
+"Error message!",Felmeddelande!
 Error!,Fel!
 "DB exception","DB undantag"
 "Print receipt","Skriv ut kvitto"
@@ -1969,6 +1970,7 @@ edit,ändra
 "Review & Payments","Granska & betala"
 "Select a new payment method","Välj ett nytt betalsätt"
 "Save Address","Spara Adress"
+"Please specify a shipping method.","Vänligen ange ett leveranssätt."
 "Checkout Options","Alternativ för kassan"
 "Enable Onepage Checkout","Aktivera Onepage kassa"
 "Allow Guest Checkout","Tillåt gästkassan"
@@ -1993,14 +1995,21 @@ edit,ändra
 "We'll send your order confirmation here.","Hit skickar vi din orderbekräftelse."
 Payment,Betalning
 "Not yet calculated","Inte beräknat ännu"
+"We received your order!","Vi har tagit emot din beställning!"
 "Thank you for your purchase!","Tack för ditt köp!"
+"Forgot Password","Glömt lösenord"
 "Go to Checkout","Gå till kassan"
 "View and edit cart","Visa och ändra varukorgen"
+"Shipping Methods",Leveransmetod
+"Select Method","Välj metod"
+"Method Title",Metodnamn
+"Carrier Title","Transportföretagets namn"
 "Sorry, no quotes are available for this order at this time","Tyvärr finns inga offerter tillgängliga för den här beställningen just nu"
 "Item in Cart","Artikel i kundvagnen"
 "Items in Cart","Artiklar i kundvagnen"
 "Require Customer To Be Logged In To Checkout","Kräv att kunden loggar in för att gå till kassan"
 "Something went wrong while saving the page. Please refresh the page and try again.","Något gick fel när sidan sparades. Vänligen uppdatera sidan och försök igen."
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Du har lagt till %1 i din <a href=""%2"">kundvagn</a>."
 "Terms and Conditions","Regler och Villkor"
 "Add New Condition","Lägga till nytt villkor"
 "Save Condition","Spara Regelvillkor"
@@ -3265,7 +3274,6 @@ IP-Address,IP-adress
 Logging,Loggar
 Archive,Arkiv
 Move,Flytta
-"Forgot Password","Glömt lösenord"
 Reorder,"Beställ igen"
 Print,"Skriv ut"
 Run,Kör
@@ -4582,7 +4590,6 @@ Language,Språk
 (now),(nu)
 "Customer Id",Kund-Id
 "Log Files",Loggfiler
-"Error message!",Felmeddelande!
 "Delete ""%1""","Ta bort ""%1"""
 "Empty log","Tom logg"
 "No data","Inga data"
