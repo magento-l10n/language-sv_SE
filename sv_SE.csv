@@ -981,6 +981,7 @@ Month,Månad
 Year,År
 "Delete Credit Card","Ta bort kreditkort"
 "Edit Credit Card","Redigera kreditkort"
+"Please try again later","Försök igen senare"
 Invoice,Fakturera
 Shipment,Frakt
 "some error","några fel"
@@ -997,6 +998,7 @@ State/Province,Län
 "Add Credit Card","Lägg till kreditkort"
 "Card Number",Kortnummer
 "Is Default",Standard
+"Pay with PayPal","Betala med PayPal"
 "Paypal account",PayPal-konto
 "Coinbase account",Coinbase-konto
 "Europe bank account","Europeiskt bankkonto"
